@@ -1,0 +1,115 @@
+/* Store Fonts Starts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800;900&display=swap');
+/* Store Fonts Ends */
+
+:root {
+
+    /* Classic Theme */
+    /* --Font_One: "Muli", sans-serif !important;
+    --Primary_Color: #3A1593;
+    --Primary_BGColor: #3A1593;
+    --Secondary_Color: #F9F6FF;
+    --Secondary_BGColor: #F9F6FF;
+    --Paragraph_Color: #808080;
+    --Icon_Color: #3A1593;
+    --Icon_BGColor: #F9F6FF;
+    --Heading_Color: #3A1593;
+    --Link_Color: #3A1593;
+    --Border_Color: #3A1593;
+    --Secondary_BtnBgColor: #F15A25; */
+
+    /* Grocery Theme */
+    --Font_One: "Muli", sans-serif !important;
+    --Primary_Color: #3f51b5;
+    --Primary_BGColor: #3f51b5;
+    --Secondary_Color: #f2f4ff;
+    --Secondary_BGColor: #f2f4ff;
+    --Paragraph_Color: #808080;
+    --Icon_Color: #3f51b5;
+    --Icon_BGColor: #f2f4ff;
+    --Heading_Color: #3f51b5;
+    --Link_Color: #3f51b5;
+    --Border_Color: #3f51b5;
+    --Secondary_BtnBgColor: #F15A25;
+
+    /* Chocolicious Theme */
+    /* --Font_One: 'Raleway', sans-serif!important;
+    --Primary_Color: #0c705c;
+    --Primary_BGColor: #0c705c;
+    --Secondary_Color: #a6ddd2;
+    --Secondary_BGColor: #a6ddd2;
+    --Paragraph_Color: #808080;
+    --Icon_Color: #0c705c;
+    --Icon_BGColor: #a6ddd2;
+    --Heading_Color: #0c705c;
+    --Link_Color: #0c705c;
+    --Border_Color: #0c705c;
+    --Secondary_BtnBgColor: #F7C621; */
+
+    /* Restaurant Theme */
+    /* --Font_One: 'Raleway', sans-serif!important;
+    --Primary_Color: #FF6E00;
+    --Primary_BGColor: #FF6E00;
+    --Secondary_Color: #FFF7E2;
+    --Secondary_BGColor: #FFF7E2;
+    --Paragraph_Color: #808080;
+    --Icon_Color: #FF6E00;
+    --Icon_BGColor: #FFF7E2;
+    --Heading_Color: #FF6E00;
+    --Link_Color: #FF6E00;
+    --Border_Color: #FF6E00;
+    --Secondary_BtnBgColor: #F7C621; */
+
+    /* Beauty Theme */
+    /* --Font_One: 'Poppins', sans-serif;
+    --Primary_Color: #ED0149;
+    --Primary_BGColor: #ED0149;
+    --Secondary_Color: #fddbe5;
+    --Secondary_BGColor: #fddbe5;
+    --Paragraph_Color: #808080;
+    --Icon_Color: #ED0149;
+    --Icon_BGColor: #fddbe5;
+    --Heading_Color: #ED0149;
+    --Link_Color: #ED0149;
+    --Border_Color: #ED0149;
+    --Secondary_BtnBgColor: #fced24; */
+
+
+
+
+
+    /* --Font_One: #FONT1STRING#;
+    --Primary_Color: #PRIMARYCOLOR#;
+    --Primary_BGColor: #PRIMARYBGCOLOR#;
+    --Secondary_Color: #SECONDARYCOLOR#;
+    --Secondary_BGColor: #SECONDARYBGCOLOR#;
+    --Paragraph_Color: #PARATEXTCOLOR#;
+    --Icon_Color: #DEFAULTICONCOLOR#;
+    --Icon_BGColor: #DEFAULTICONBG#;
+    --Heading_Color: #H1TEXTCOLOR#;
+    --Link_Color: #PRIMARYCOLOR#;
+    --Border_Color: #PRIMARYCOLOR#; */
+}
+
+
+/* Font Names
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Charis SIL', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Lato', sans-serif; 
+font-family: "Muli",sans-serif!important;
+
+FontNames */
