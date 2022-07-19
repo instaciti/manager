@@ -1264,10 +1264,43 @@ span li {
 
 .invoiceList .wizardInsider {
     display: flex;
-    margin-bottom: 25px;
+
 }
 
 .invoiceList .wizardInsider svg {
+    color: var(--Primary_Color);
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.invoiceList .tab-content .col-md-6 {
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.invoiceList .tab-content .col-12{
+    margin-top: 15px;
+}
+.borderRight {
+    border-right: 1px solid #f3f3f3;
+}
+.borderBottom{
+    border-bottom: 1px solid #f3f3f3;
+}
+.invoiceList .wizardInsider .bi-check2 {
+    color: #4caf50 !important;
+    width: 30px;
+    height: 30px;
+}
+.invoiceList .wizardInsider .bi-x-lg {
+    color: tomato !important;
+}
+.invoiceList .wizardInsider {
+    display: flex;
+    padding-top: 20px;
+}
+.invoiceList .wizardInsider img {
     color: var(--Primary_Color);
     width: 25px;
     height: 25px;
@@ -1306,6 +1339,63 @@ span li {
     outline: none;
     margin: auto;
 }
+.calender .nav{
+    display: inline-flex;
+    background-color: #dbe1ff;
+    border-radius: 5px;
+    align-items: center;
+}
+.calender .nav-item .active{
+    background-color: #3F51B5 !important;
+    margin: 5px;
+    color: white !important;
+}
+.calender .nav-item .nav-link{
+    color: #3F51B5;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 25px;
+}
+.calender .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.calender .heading label{
+    font-size: 14px;
+}
+.calender .heading input{
+    font-size: 14px;
+    color: gray;
+    font-weight: 600;
+    border-color: #E4E4E4;
+}
+.dashboardContainer .calender{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
+}
+.calenderWrap .calenderHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.calenderWrap .calenderHeading .nextPrev a{
+    padding: 8px;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.calenderWrap .calenderHeading h5{
+    margin: 0;
+    font-weight: 700;
+}
+
+
 
 
 /* Main CSS Ends Here */
@@ -1755,11 +1845,22 @@ a {
 
 @media only screen and (max-width: 767px) {
 
-    .invoiceList .wizardInsider {
-        margin-bottom: 35px;
+    .invoiceList .wizardInsider{
+        border-bottom: 1px solid #efefef;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .borderRight{
+        border: none;
+    }
+    .borderBottom{
+        border: none;
+    }
+    .invoiceList .tab-content .col-md-6{
+        padding-left: 0px;
     }
 
-    .invoiceList .wizardInsider svg {
+    .invoiceList .wizardInsider img {
         width: 45px;
     }
 
