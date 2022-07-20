@@ -238,6 +238,11 @@
                     <li class="nav-item" role="presentation">
                       <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Days</button>
                     </li>
+
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profil" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Weeks</button>
+                    </li>
+
                   </ul>
                  
             </div>
@@ -247,7 +252,12 @@
                   <label for="inputPassword6" class="col-form-label">Select Member</label>
                 </div>
                 <div class="col-auto">
-                    <input type="text" class="form-control" value="undefined">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>undefined</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
                 </div>
 
               </div>
@@ -259,7 +269,7 @@
 
                 <div class="calenderWrap">
                     <div class="calenderHeading">
-                        <h5>Jul 19, 2022</h5>
+                        <h5>July, 2022</h5>
 
                         <div class="nextPrev">
                             <a href="#">
@@ -290,8 +300,8 @@
                             <td class="fadeText">27</td>
                             <td class="fadeText">28</td>
                             <td class="fadeText">29 
-                                <div class="event1">Diwali</div>
-                                <div class="event2">Nav Ratri</div>
+                                <div class="event1" data-bs-toggle="modal" data-bs-target="#exampleModal">Diwali</div>
+                                <div class="event2" data-bs-toggle="modal" data-bs-target="#exampleModal">Nav Ratri</div>
                             </td>
                             <td class="fadeText">30</td>
                             <td>1</td>
@@ -302,7 +312,7 @@
                             <td>3</td>
                             <td>4</td>
                             <td>5 
-                                <div class="event1">Diwali</div>
+                                <div class="event1" data-bs-toggle="modal" data-bs-target="#exampleModal">Diwali</div>
                                 <div class="eventMore">+2 more</div>
                             </td>
                             <td>6</td>
@@ -316,8 +326,8 @@
                             <td>11</td>
                             <td>12</td>
                             <td>13
-                                <div class="event1">Diwali</div>
-                                <div class="event2">Nav Ratri</div>
+                                <div class="event1" data-bs-toggle="modal" data-bs-target="#exampleModal">Diwali</div>
+                                <div class="event2" data-bs-toggle="modal" data-bs-target="#exampleModal">Nav Ratri</div>
                             </td>
                             <td>14</td>
                             <td>15</td>
@@ -328,8 +338,8 @@
                             <td>17</td>
                             <td>18</td>
                             <td>19</td>
-                            <td>20 <div class="event1">Diwali</div>
-                                <div class="event2">Nav Ratri</div></td>
+                            <td>20 <div class="event1" data-bs-toggle="modal" data-bs-target="#exampleModal">Diwali</div>
+                                <div class="event2" data-bs-toggle="modal" data-bs-target="#exampleModal">Nav Ratri</div></td>
                             <td>21</td>
                             <td>22</td>
                             <td>23</td>
@@ -341,8 +351,8 @@
                             <td>26</td>
                             <td>27</td>
                             <td>28 
-                                <div class="event1">Diwali</div>
-                                <div class="event2">Nav Ratri</div>
+                                <div class="event1" data-bs-toggle="modal" data-bs-target="#exampleModal">Diwali</div>
+                                <div class="event2" data-bs-toggle="modal" data-bs-target="#exampleModal">Nav Ratri</div>
                             </td>
                             <td>29</td>
                             <td>30</td>
@@ -351,6 +361,7 @@
 
                         </tbody>
                     </table>
+
                 </div>
 
             </div>
@@ -359,7 +370,7 @@
 
                  <div class="calenderWrap">
                     <div class="calenderHeading">
-                        <h5>Jul 19, 2022</h5>
+                        <h5>July 19, Tuesday</h5>
 
                         <div class="nextPrev">
                             <a href="#">
@@ -380,8 +391,8 @@
                             <td>1:00 AM</td>
                             <td>2:00 AM</td>
                             <td>3:00 AM 
-                                <div class="event1">Diwali</div>
-                                <div class="event2">Nav Ratri</div>
+                                <div class="event1" data-bs-toggle="modal" data-bs-target="#exampleModal">Diwali</div>
+                                <div class="event2" data-bs-toggle="modal" data-bs-target="#exampleModal">Nav Ratri</div>
                             </td>
                             <td>4:00 AM</td>
                             <td>5:00 AM</td>
@@ -431,6 +442,157 @@
                 </div>
 
             </div>
+
+            <div class="tab-pane fade" id="pills-profil" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+              <div class="calenderWrap">
+                 <div class="calenderHeading">
+                     <h5>2nd Week, July 2022</h5>
+
+                     <div class="nextPrev">
+                         <a href="#">
+                             <img src="../assets/img/chevron-left.svg" alt="">
+                         </a>
+
+                         <a href="#">
+                             <img src="../assets/img/chevron-right.svg" alt="">
+                         </a>
+                     </div>
+                 </div>
+
+                 <table class="table weeklyTable">
+                  <thead>
+                    <tr>
+                      <th>Weeks</th>
+                      <th>Mon</th>
+                      <th>Tue</th>
+                      <th>Wed</th>
+                      <th>Thu</th>
+                      <th>Fri</th>
+                      <th>Sat</th>
+                      <th>Sun</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1st Week</td>
+
+                      <td class="fadeText">26</td>
+                      <td class="fadeText">27</td>
+                      <td class="fadeText">28</td>
+                      <td class="fadeText">29 
+                          <div class="event1" data-bs-toggle="modal" data-bs-target="#exampleModal">Diwali</div>
+                          <div class="event2" data-bs-toggle="modal" data-bs-target="#exampleModal">Nav Ratri</div>
+                      </td>
+                      <td class="fadeText">30</td>
+                      <td>1</td>
+                      <td>2</td>
+                    </tr>
+
+                    <tr>
+                      <td>2nd Week</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>5 
+                          <div class="event1" data-bs-toggle="modal" data-bs-target="#exampleModal">Diwali</div>
+                          <div class="eventMore">+2 more</div>
+                      </td>
+                      <td>6</td>
+                      <td>7</td>
+                      <td>8</td>
+                      <td>9</td>
+                    </tr>
+
+                    <tr>
+                      <td>3rd Week</td>
+                      <td>10</td>
+                      <td>11</td>
+                      <td>12</td>
+                      <td>13
+                          <div class="event1" data-bs-toggle="modal" data-bs-target="#exampleModal">Diwali</div>
+                          <div class="event2" data-bs-toggle="modal" data-bs-target="#exampleModal">Nav Ratri</div>
+                      </td>
+                      <td>14</td>
+                      <td>15</td>
+                      <td>16</td>
+                    </tr>
+
+                    <tr>
+                      <td>4th Week</td>
+                      <td>17</td>
+                      <td>18</td>
+                      <td>19</td>
+                      <td>20 <div class="event1" data-bs-toggle="modal" data-bs-target="#exampleModal">Diwali</div>
+                          <div class="event2" data-bs-toggle="modal" data-bs-target="#exampleModal">Nav Ratri</div></td>
+                      <td>21</td>
+                      <td>22</td>
+                      <td>23</td>
+                    </tr>
+
+                    <tr>
+                      <td>5th Week</td>
+                      <td>24</td>
+                      <td>25</td>
+                      <td>26</td>
+                      <td>27</td>
+                      <td>28 
+                          <div class="event1" data-bs-toggle="modal" data-bs-target="#exampleModal">Diwali</div>
+                          <div class="event2" data-bs-toggle="modal" data-bs-target="#exampleModal">Nav Ratri</div>
+                      </td>
+                      <td>29</td>
+                      <td>30</td>
+                    </tr>
+
+
+                  </tbody>
+              </table>
+
+             </div>
+
+         </div>
+
+                   <!-- event details Modal -->
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">About Event</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                              x
+                            </button>
+                          </div>
+                          <div class="modal-body">
+
+                            <table class="table">
+
+                              <tbody>
+                                <tr>
+                                  <td><strong>Title</strong></td>
+                                  <td>Diwali Festival</td>
+                                </tr>
+
+                                <tr>
+                                  <td><strong>Date</strong></td>
+                                  <td>29th Octobar,2022</td>
+                                </tr>
+
+                                <tr>
+                                  <td><strong>About</strong></td>
+                                  <td>The festival usually lasts five days and is celebrated during the Hindu lunisolar month Kartika (between mid-October and mid-November). One of the most popular festivals of Hinduism, Diwali symbolizes the spiritual "victory of light over darkness, good over evil, and knowledge over ignorance"</td>
+                                </tr>
+
+
+                              </tbody>
+                            </table>
+
+                          </div>
+                       
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- event details Modal -->
 
           </div>
 

@@ -1366,7 +1366,7 @@ span li {
     font-size: 14px;
     color: gray;
 }
-.calender .heading input{
+.calender .heading select{
     font-size: 14px;
     color: gray;
     font-weight: 600;
@@ -1395,6 +1395,25 @@ span li {
     margin: 0;
     font-weight: 700;
 }
+.calender .modal-header .btn-close{
+    font-size: 25px;
+    padding: 0px;
+    padding-right: 10px;
+    color: white;
+}
+.calender .modal .modal-header{
+    background-color: #3F51B5;
+}
+.calender .modal .modal-header .modal-title{
+    color: white;
+}
+.calender .modal table td{
+    width: unset !important;
+    text-align: left !important;
+    height: unset !important;
+    font-size: 14px;
+}
+
 .dashboardContainer .calender .table{
     margin-bottom: 0px;
     border-radius: 10px;
@@ -1415,6 +1434,12 @@ span li {
     width: 14.28%;
     color: #7b7b7b;
 }
+
+.dashboardContainer .calender .weeklyTable td{
+    width: 12.5%;
+    text-align: left;
+}
+
 .dashboardContainer .calender .table td:hover{
     background-color: #f4f6ff;
 }
@@ -1427,6 +1452,7 @@ span li {
     font-size: 13px;
     margin-top: 5px;
     text-align: left;
+    cursor: pointer;
 }
 .dashboardContainer .calender .table td .event2{
     background-color: #DBEEFF;
@@ -1437,6 +1463,7 @@ span li {
     font-size: 13px;
     margin-top: 5px;
     text-align: left;
+    cursor: pointer;
 }
 .dashboardContainer .calender .table td .eventMore{
     font-size: 13px;
@@ -1956,6 +1983,17 @@ a {
         padding: 5px;
         font-size: 12px;
     }
+    .dashboardContainer .calender .weeklyTable th{
+        font-size: 11px !important;
+    }
+    .dashboardContainer .calender .weeklyTable td .event1{
+     padding: 0px 3px;
+     font-size: 11px;
+    }
+    .dashboardContainer .calender .weeklyTable td .event2{
+        padding: 0px 3px;
+        font-size: 11px;
+       }
 
     .dashboardContainer .calender{
         padding: 15px;
@@ -1973,9 +2011,12 @@ a {
         width: 100%;
     }
     .calender .nav li{
-        width: 50%;
+        width: 33.33%;
     }
-    .calender .nav-item .nav-link{
+    .calender .heading .row{
+        width: 105%;
+    }
+    .calender .heading select{
         width: 100%;
     }
     .calender .heading .col-auto{
