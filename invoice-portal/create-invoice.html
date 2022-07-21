@@ -301,6 +301,43 @@
               <div class="accordion-body">
                 <div class="enterIntro cardBoxShadow">
                   <div class="mb-0">
+
+                    <div class="responsiveTable">
+                      <table class="table mb-5">
+                        <thead>
+                          <tr>
+                            <th>Product or service</th>
+                            <th>Price</th>
+                            <th>Qty</th>
+                            <th>Discount</th>
+                            <th>Taxes</th>
+                            <th>Line Total</th>
+                            <th>Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Shoe</td>
+                            <td>250</td>
+                            <td>1</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>250</td>
+  
+                            <td class="editIcons">
+                              <a href="#" class="editIcon me-3">
+                                <i class="fa-solid fa-pencil"></i>
+                              </a>
+                              <a href="#" class="deleteIcon">
+                                <i class="fa-solid fa-trash-can"></i>
+                              </a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    
+
                     <form class="row">
                       <div class="col-md-4 mb-3">
                         <label class="form-label">Product or service</label>
@@ -347,26 +384,62 @@
 
 
                   <div class="applyDiscount">
-                    <div class="d-flex">
+                    <div class="">
 
-                      <div class="form-check me-4">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <div class="form-check d-block">
+                        <input class="form-check-input" type="checkbox" id="check1">
                         <label class="form-check-label" for="gridCheck">
                           Apply Discount
                         </label>
+
+                        <div class="row discountBox">
+                    
+                          <div class="col-md-6 discount">
+                            <label class="form-label">Apply Discount</label>
+      
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Percent ( % ) Off</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                          
+                          <div class="col-md-6 discount">
+                            <label  class="form-label">%</label>
+                            <input type="text" class="form-control" placeholder="Enter in %">
+      
+                          </div>
+                 
+                        </div>
+
                       </div>
 
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <div class="form-check d-block">
+                        <input class="form-check-input" type="checkbox" id="check2">
                         <label class="form-check-label" for="gridCheck">
                           Installment Paid
                         </label>
+
+                        <div class="row discountBox">
+
+                          <div class="col-md-6 installment">
+                            <label  class="form-label">Amount Paid</label>
+                            <input type="text" class="form-control" value="0">
+                          </div>
+
+                        </div>
+
                       </div>
 
                     </div>
 
                     <h5>Total : <span>0.00</span></h5>
                   </div>
+
+                 
+
+                  <hr>
 
                   <a href="#">
                     <button class="btn btnRed me-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOn"

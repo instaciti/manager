@@ -535,13 +535,58 @@ aside .sidebar .subMenu {
     border-radius: 10px;
 }
 
+.dashboardContainer .enterIntro th{
+    padding: 12px;
+    vertical-align: middle;
+}
+.dashboardContainer .enterIntro td{
+    font-size: 14px;
+    vertical-align: middle;
+    padding: 12px;
+}
+
 .dashboardContainer .enterIntro .applyDiscount {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #ddd;
     padding: 15px 0px;
     margin: 15px 0px;
+    margin-bottom: 0px;
+}
+
+.dashboardContainer .enterIntro .applyDiscount .form-check:first-child{
+    padding-top: 0px;
+}
+.dashboardContainer .enterIntro .applyDiscount .form-check{
+    padding-top: 15px;
+}
+
+.dashboardContainer .enterIntro .discountBox .discount{
+    margin-top: 15px;
+    width: 250px;
+}
+
+.dashboardContainer .enterIntro .discountBox .installment{
+    margin-top: 15px;
+    width: 250px;
+}
+
+.dashboardContainer .enterIntro .discountBox .discount{
+    display: none;
+}
+
+.dashboardContainer .enterIntro .discountBox .installment{
+    display: none;
+}
+
+
+.dashboardContainer .enterIntro .discountBox select{
+    font-size: 14px;
+    color: gray;
+}
+
+hr{
+    background-color: #ddd;
+    opacity: 1;
 }
 
 .dashboardContainer .enterIntro label {
@@ -1020,6 +1065,21 @@ span li {
     align-items: center;
 }
 
+.serviceList .tableItems .right ul{
+    margin: 0px;
+}
+.serviceList .tableItems .right ul li span{
+    border: none;
+    border-radius: 5px;
+}
+.serviceList .tableItems .right ul li a{
+    border: none;
+    color: #212529 !important;
+}
+.serviceList .tableItems .right ul li.active span{
+    background-color: #3F51B5 !important;
+    box-shadow: 1px 1px 5px 3px rgb(0 0 0 / 15%);
+}
 .serviceList .tableItems .right a {
     text-decoration: none;
 }
@@ -1983,6 +2043,23 @@ a {
 
 @media only screen and (max-width: 767px) {
 
+    .dashboardContainer .enterIntro th{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .dashboardContainer .enterIntro td{
+        font-size: 12px;
+        padding: 15px 5px;
+    }
+    .dashboardContainer .enterIntro .editIcons{
+        display: flex;
+    }
+    .dashboardContainer .enterIntro td i{
+        font-size: 14px;
+    }
+    .dashboardContainer .enterIntro td .me-3{
+        margin-right: 5px;
+    }
     .dashboardContainer .calender .tableDay td {
         text-align: left;
         height: 50px;
@@ -2152,6 +2229,11 @@ a {
 
     .dashboardContainer .enterIntro .applyDiscount {
         flex-direction: column;
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+    .dashboardContainer .enterIntro .applyDiscount h5{
+        margin-top: 25px;
     }
 
     .dashboardContainer .enterIntro .applyDiscount .d-flex {
