@@ -1435,6 +1435,19 @@ span li {
     color: #7b7b7b;
 }
 
+.dashboardContainer .calender .tableDay td{
+    text-align: left;
+    height: 70px;
+}
+
+.dashboardContainer .calender .tableDay .event1{
+    display: inline-block;
+}
+
+.dashboardContainer .calender .tableDay .event2{
+    display: inline-block;
+}
+
 .dashboardContainer .calender .weeklyTable td{
     width: 12.5%;
     text-align: left;
@@ -1970,6 +1983,10 @@ a {
 
 @media only screen and (max-width: 767px) {
 
+    .dashboardContainer .calender .tableDay td {
+        text-align: left;
+        height: 50px;
+    }
     .dashboardContainer .contactManger{
         padding: 15px;
     }
