@@ -1630,9 +1630,228 @@ span li {
     font-weight: 600;
     padding: 10px 25px;
 }
-
 .addNewContact label {
     margin-bottom: 5px !important;
+}
+
+.instacitiStar{
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
+    margin-top: 25px;
+}
+
+.instacitiStar .nav{
+    background-color: #d3daff38;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.instacitiStar .nav-item{
+    width: 16.66%;
+}
+.instacitiStar .nav-link{
+    width: 100%;
+    color: #3F51B5;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instacitiStar .nav-link i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.instacitiStar .nav-link.active{
+    background-color: #3F51B5 !important;
+    font-weight: 600;
+    color: white;
+    box-shadow: 1px 6px 10px 5px rgb(0 0 0 / 10%);
+}
+.instacitiStar .nav-link.active img{
+    filter: invert(1) brightness(150);
+}
+
+.instacitiStar .nav-link img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.instacitiStar .leftBox{
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.instacitiStar .leftBox h5{
+    color: #3F51B5;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.instacitiStar .leftBox small{
+    color: gray;
+}
+.instacitiStar .leftBox .dropImg{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: #ececec;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.instacitiStar .leftBox .dropImg input{
+    position: absolute;
+    left: 0;
+    top: 25px;
+    opacity: 0;
+}
+.instacitiStar .leftBox .dropImg i{
+    color: #b0b0b0;
+    font-size: 20px;
+}
+.instacitiStar .leftBox .form-floating>.form-control{
+    padding: 20px 0px;
+    padding-bottom: 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+.instacitiStar .leftBox label{
+    padding: 20px 0px;
+    padding-bottom: 0px;
+    color: gray;
+    font-size: 14px;
+}
+
+.signturePreview{
+    border-radius: 10px;
+    box-shadow: 0 0 16px 0 rgb(0 0 0 / 5%);
+}
+
+.signturePreview .bi-layout-text-sidebar{
+    margin: 0px 20px;
+}
+
+.signturePreview .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
+    padding: 15px 30px;
+}
+.signturePreview .head .middle{
+    display: flex;
+    align-items: center;
+}
+.signturePreview .head p{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    padding: 5px 60px;
+    background-color: #F2F2F2;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: 15px;
+    color: gray;
+}
+.signturePreview .head p svg{
+    margin-right: 5px;
+}
+
+.signturePreview .head .middle .search{
+    display: flex;
+    align-items: center;
+}
+.signturePreview .head .right .bi-question-circle{
+    margin: 0px 10px;
+}
+.signturePreview .signatureBody{
+    min-height: 350px;
+    padding: 30px;
+    padding-top: 40px;
+    overflow: hidden;
+}
+.signturePreview .signatureBody h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.instacitiStar .leftBox .social{
+    padding: 0px;
+    margin: 0px;
+}
+.instacitiStar .leftBox .social li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.instacitiStar .leftBox .social li i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: white;
+}
+
+.instacitiStar .leftBox .social li .fa-facebook-f{
+    background-color: #3B5998;
+}
+.instacitiStar .leftBox .social li .fa-instagram{
+    background-color: #E4405F;
+}
+.instacitiStar .leftBox .social li .fa-linkedin-in{
+    background-color: #0077B5;
+}
+.instacitiStar .leftBox .social li .fa-twitter{
+    background-color: #55ACEE;
+}
+.instacitiStar .leftBox .social li .fa-youtube{
+    background-color: #CD201F;
+}
+.instacitiStar .leftBox .social li .fa-pinterest{
+    background-color: #BD081C;
+}
+
+.instacitiStar .leftBox .freeTheme h6{
+ 
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+.instacitiStar .leftBox .freeTheme .inner{
+    text-align: center;
+    color: #3F51B5;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.instacitiStar .leftBox .freeTheme .inner .box.active{
+    border-color: #3F51B5 !important;
+}
+.instacitiStar .leftBox .freeTheme .inner .box{
+    height: 80px;
+    width: 100%;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.instacitiStar .leftBox .freeTheme .inner .box i{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #45b636;
 }
 
 
@@ -1942,12 +2161,6 @@ a {
 
 
 
-
-
-
-
-
-
 .modalHeader {
     background-color: var(--Primary_BGColor);
 }
@@ -2171,6 +2384,43 @@ a {
 
 @media only screen and (max-width: 767px) {
 
+    .signturePreview{
+        margin-top: 20px;
+    }
+    .instacitiStar{
+        padding: 15px;
+    }
+    .signturePreview .signatureBody {
+        min-height: 350px;
+        padding: 15px;
+        padding-top: 25px;
+        overflow: hidden;
+    }
+    .instacitiStar .nav-item {
+        width: 50%;
+    }
+    .instacitiStar .nav-link{
+        padding: 15px;
+    }
+    .signturePreview .head p{
+        padding: 5px;
+        margin-left: 10px;
+    }
+    .signturePreview .head{
+        padding: 15px;
+    }
+    .signturePreview .bi-layout-text-sidebar{
+        display: none;
+    }
+    .signturePreview .bi-chevron-left{
+        display: none;
+    }
+    .signturePreview .bi-chevron-right{
+        display: none;
+    }
+    .signturePreview .head .right{
+        display: none;
+    }
     .dashboardContainer .enterIntro th {
         font-size: 12px;
         padding: 5px;
