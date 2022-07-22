@@ -535,11 +535,12 @@ aside .sidebar .subMenu {
     border-radius: 10px;
 }
 
-.dashboardContainer .enterIntro th{
+.dashboardContainer .enterIntro th {
     padding: 12px;
     vertical-align: middle;
 }
-.dashboardContainer .enterIntro td{
+
+.dashboardContainer .enterIntro td {
     font-size: 14px;
     vertical-align: middle;
     padding: 12px;
@@ -553,38 +554,39 @@ aside .sidebar .subMenu {
     margin-bottom: 0px;
 }
 
-.dashboardContainer .enterIntro .applyDiscount .form-check:first-child{
+.dashboardContainer .enterIntro .applyDiscount .form-check:first-child {
     padding-top: 0px;
 }
-.dashboardContainer .enterIntro .applyDiscount .form-check{
+
+.dashboardContainer .enterIntro .applyDiscount .form-check {
     padding-top: 15px;
 }
 
-.dashboardContainer .enterIntro .discountBox .discount{
+.dashboardContainer .enterIntro .discountBox .discount {
     margin-top: 15px;
     width: 250px;
 }
 
-.dashboardContainer .enterIntro .discountBox .installment{
+.dashboardContainer .enterIntro .discountBox .installment {
     margin-top: 15px;
     width: 250px;
 }
 
-.dashboardContainer .enterIntro .discountBox .discount{
+.dashboardContainer .enterIntro .discountBox .discount {
     display: none;
 }
 
-.dashboardContainer .enterIntro .discountBox .installment{
+.dashboardContainer .enterIntro .discountBox .installment {
     display: none;
 }
 
 
-.dashboardContainer .enterIntro .discountBox select{
+.dashboardContainer .enterIntro .discountBox select {
     font-size: 14px;
     color: gray;
 }
 
-hr{
+hr {
     background-color: #ddd;
     opacity: 1;
 }
@@ -1065,21 +1067,25 @@ span li {
     align-items: center;
 }
 
-.serviceList .tableItems .right ul{
+.serviceList .tableItems .right ul {
     margin: 0px;
 }
-.serviceList .tableItems .right ul li span{
+
+.serviceList .tableItems .right ul li span {
     border: none;
     border-radius: 5px;
 }
-.serviceList .tableItems .right ul li a{
+
+.serviceList .tableItems .right ul li a {
     border: none;
     color: #212529 !important;
 }
-.serviceList .tableItems .right ul li.active span{
+
+.serviceList .tableItems .right ul li.active span {
     background-color: #3F51B5 !important;
     box-shadow: 1px 1px 5px 3px rgb(0 0 0 / 15%);
 }
+
 .serviceList .tableItems .right a {
     text-decoration: none;
 }
@@ -1087,7 +1093,6 @@ span li {
 .serviceList .tableItems .right i {
     width: 25px;
     height: 25px;
-
 }
 
 .dashboardContainer .serviceList label {
@@ -1339,27 +1344,33 @@ span li {
     padding-left: 25px;
 }
 
-.invoiceList .tab-content .col-12{
+.invoiceList .tab-content .col-12 {
     margin-top: 15px;
 }
+
 .borderRight {
     border-right: 1px solid #f3f3f3;
 }
-.borderBottom{
+
+.borderBottom {
     border-bottom: 1px solid #f3f3f3;
 }
+
 .invoiceList .wizardInsider .bi-check2 {
     color: #4caf50 !important;
     width: 30px;
     height: 30px;
 }
+
 .invoiceList .wizardInsider .bi-x-lg {
     color: tomato !important;
 }
+
 .invoiceList .wizardInsider {
     display: flex;
     padding-top: 20px;
 }
+
 .invoiceList .wizardInsider img {
     color: var(--Primary_Color);
     width: 25px;
@@ -1399,93 +1410,109 @@ span li {
     outline: none;
     margin: auto;
 }
-.calender .nav{
+
+.calender .nav {
     display: inline-flex;
     background-color: #dbe1ff;
     border-radius: 5px;
     align-items: center;
 }
-.calender .nav-item .active{
+
+.calender .nav-item .active {
     background-color: #3F51B5 !important;
     margin: 5px;
     color: white !important;
 }
-.calender .nav-item .nav-link{
+
+.calender .nav-item .nav-link {
     color: #3F51B5;
     font-size: 14px;
     font-weight: 600;
     padding: 5px 25px;
 }
-.calender .heading{
+
+.calender .heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.calender .heading label{
+
+.calender .heading label {
     font-size: 14px;
     color: gray;
 }
-.calender .heading select{
+
+.calender .heading select {
     font-size: 14px;
     color: gray;
     font-weight: 600;
     border-color: #E4E4E4;
 }
-.dashboardContainer .calender{
+
+.dashboardContainer .calender {
     background-color: white;
     border-radius: 10px;
     padding: 25px 25px;
     box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
 }
-.calenderWrap .calenderHeading{
+
+.calenderWrap .calenderHeading {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.calenderWrap .calenderHeading .nextPrev a{
+
+.calenderWrap .calenderHeading .nextPrev a {
     padding: 8px;
     border: 1px solid #ddd;
     margin-left: 10px;
     border-radius: 10px;
     padding-bottom: 10px;
 }
-.calenderWrap .calenderHeading h5{
+
+.calenderWrap .calenderHeading h5 {
     margin: 0;
     font-weight: 700;
 }
-.calender .modal-header .btn-close{
+
+.calender .modal-header .btn-close {
     font-size: 25px;
     padding: 0px;
     padding-right: 10px;
     color: white;
 }
-.calender .modal .modal-header{
+
+.calender .modal .modal-header {
     background-color: #3F51B5;
 }
-.calender .modal .modal-header .modal-title{
+
+.calender .modal .modal-header .modal-title {
     color: white;
 }
-.calender .modal table td{
+
+.calender .modal table td {
     width: unset !important;
     text-align: left !important;
     height: unset !important;
     font-size: 14px;
 }
 
-.dashboardContainer .calender .table{
+.dashboardContainer .calender .table {
     margin-bottom: 0px;
     border-radius: 10px;
     overflow: hidden;
 }
-.dashboardContainer .calender .table th{
+
+.dashboardContainer .calender .table th {
     color: #3F51B5;
     background-color: #e5e9ff;
     text-align: center;
     padding: 15px;
 }
-.dashboardContainer .calender .table td{
+
+.dashboardContainer .calender .table td {
     border: 1px solid #eee;
     padding: 10px 15px;
     height: 100px;
@@ -1495,28 +1522,29 @@ span li {
     color: #7b7b7b;
 }
 
-.dashboardContainer .calender .tableDay td{
+.dashboardContainer .calender .tableDay td {
     text-align: left;
     height: 70px;
 }
 
-.dashboardContainer .calender .tableDay .event1{
+.dashboardContainer .calender .tableDay .event1 {
     display: inline-block;
 }
 
-.dashboardContainer .calender .tableDay .event2{
+.dashboardContainer .calender .tableDay .event2 {
     display: inline-block;
 }
 
-.dashboardContainer .calender .weeklyTable td{
+.dashboardContainer .calender .weeklyTable td {
     width: 12.5%;
     text-align: left;
 }
 
-.dashboardContainer .calender .table td:hover{
+.dashboardContainer .calender .table td:hover {
     background-color: #f4f6ff;
 }
-.dashboardContainer .calender .table td .event1{
+
+.dashboardContainer .calender .table td .event1 {
     background-color: #DBE1FF;
     color: #405EB8;
     border-radius: 5px;
@@ -1527,7 +1555,8 @@ span li {
     text-align: left;
     cursor: pointer;
 }
-.dashboardContainer .calender .table td .event2{
+
+.dashboardContainer .calender .table td .event2 {
     background-color: #DBEEFF;
     color: #0B75D2;
     border-radius: 5px;
@@ -1538,34 +1567,42 @@ span li {
     text-align: left;
     cursor: pointer;
 }
-.dashboardContainer .calender .table td .eventMore{
+
+.dashboardContainer .calender .table td .eventMore {
     font-size: 13px;
     text-align: left;
 }
-.dashboardContainer .calender .table tr{
+
+.dashboardContainer .calender .table tr {
     border-color: #e5e9ff;
 }
-.dashboardContainer .calender .table .fadeText{
+
+.dashboardContainer .calender .table .fadeText {
     color: #d3d3d3;
 }
+
 .dashboardContainer .contactManger {
     background-color: white;
     border-radius: 10px;
     padding: 25px 25px;
-    box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
+    ;
 }
-.dashboardContainer .contactManger .heading{
+
+.dashboardContainer .contactManger .heading {
     margin-bottom: 30px;
 }
-.contactManger .heading label{
+
+.contactManger .heading label {
     color: gray;
 }
-.contactManger .heading h5{
+
+.contactManger .heading h5 {
     margin-bottom: 10px;
     font-size: 18px;
 }
 
-.contactManger .featuredHeading h5{
+.contactManger .featuredHeading h5 {
     font-size: 18px;
     margin: 0px;
     padding: 12px;
@@ -1577,21 +1614,24 @@ span li {
     margin-top: 30px;
 }
 
-.addNewContact .d-flex p{
+.addNewContact .d-flex p {
     position: relative;
     top: 10px;
     margin-right: 10px;
 }
+
 .addNewContact .btnRed {
     background-color: #E70777;
     color: white;
 }
-.addNewContact .btn{
+
+.addNewContact .btn {
     font-size: 14px;
     font-weight: 600;
     padding: 10px 25px;
 }
-.addNewContact label{
+
+.addNewContact label {
     margin-bottom: 5px !important;
 }
 
@@ -1807,6 +1847,10 @@ a {
     color: #2A94A4 !important;
 }
 
+.successBgColor {
+    background-color: #129263;
+}
+
 .icon-success {
     color: #129263 !important;
 }
@@ -1831,10 +1875,94 @@ a {
     box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
 }
 
-.modal-header {
-    border-bottom: none;
-    /* padding-bottom: 5px; */
+
+.customPagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
 }
+
+.customPagination .left select {
+    width: 60px;
+    margin: 0px 15px;
+    font-size: 14px;
+}
+
+.customPagination .left {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.customPagination.right {
+    display: flex;
+    align-items: center;
+}
+
+.customPagination .right ul {
+    margin: 0px;
+}
+
+.customPagination .right ul li span {
+    border: none;
+    border-radius: 5px;
+}
+
+.customPagination .right ul li a {
+    border: none;
+    color: #212529 !important;
+}
+
+.customPagination .right a {
+    text-decoration: none;
+}
+
+.customPagination .right ul li.active span {
+    background-color: var(--Primary_BGColor) !important;
+    box-shadow: 1px 1px 5px 3px rgb(0 0 0 / 15%);
+}
+
+@media only screen and (max-width: 767px) {
+
+    .customPagination {
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .customPagination .left {
+        width: unset;
+    }
+
+    .customPagination .right {
+        margin-top: 25px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+.modalHeader {
+    background-color: var(--Primary_BGColor);
+}
+
+.modalTitle {
+    color: #ffffff;
+}
+
+.modalHeader .btn-close {
+    font-size: 25px;
+    padding: 0px;
+    padding-right: 10px;
+    color: white;
+}
+
 
 /* My Custom CSS Ends Here */
 
@@ -2043,33 +2171,41 @@ a {
 
 @media only screen and (max-width: 767px) {
 
-    .dashboardContainer .enterIntro th{
+    .dashboardContainer .enterIntro th {
         font-size: 12px;
         padding: 5px;
     }
-    .dashboardContainer .enterIntro td{
+
+    .dashboardContainer .enterIntro td {
         font-size: 12px;
         padding: 15px 5px;
     }
-    .dashboardContainer .enterIntro .editIcons{
+
+    .dashboardContainer .enterIntro .editIcons {
         display: flex;
     }
-    .dashboardContainer .enterIntro td i{
+
+    .dashboardContainer .enterIntro td i {
         font-size: 14px;
     }
-    .dashboardContainer .enterIntro td .me-3{
+
+    .dashboardContainer .enterIntro td .me-3 {
         margin-right: 5px;
     }
+
     .dashboardContainer .calender .tableDay td {
         text-align: left;
         height: 50px;
     }
-    .dashboardContainer .contactManger{
+
+    .dashboardContainer .contactManger {
         padding: 15px;
     }
+
     .dashboardContainer .contactManger .heading .col-md-3 {
         margin-bottom: 25px !important;
     }
+
     .dashboardContainer .calender .table th {
         color: #3F51B5;
         background-color: #e5e9ff;
@@ -2077,74 +2213,93 @@ a {
         padding: 5px;
         font-size: 12px;
     }
-    .dashboardContainer .calender .weeklyTable th{
+
+    .dashboardContainer .calender .weeklyTable th {
         font-size: 11px !important;
     }
-    .dashboardContainer .calender .weeklyTable td .event1{
-     padding: 0px 3px;
-     font-size: 11px;
-    }
-    .dashboardContainer .calender .weeklyTable td .event2{
+
+    .dashboardContainer .calender .weeklyTable td .event1 {
         padding: 0px 3px;
         font-size: 11px;
-       }
+    }
 
-    .dashboardContainer .calender{
+    .dashboardContainer .calender .weeklyTable td .event2 {
+        padding: 0px 3px;
+        font-size: 11px;
+    }
+
+    .dashboardContainer .calender {
         padding: 15px;
         margin-bottom: 30px;
     }
-    .calender .heading{
+
+    .calender .heading {
         flex-direction: column;
         align-items: baseline;
     }
-    .calender .heading .timeFrame{
+
+    .calender .heading .timeFrame {
         margin-bottom: 25px;
         width: 100%;
     }
-    .calender .nav{
+
+    .calender .nav {
         width: 100%;
     }
-    .calender .nav li{
+
+    .calender .nav li {
         width: 33.33%;
     }
-    .calender .heading .row{
+
+    .calender .heading .row {
         width: 105%;
     }
-    .calender .heading select{
+
+    .calender .heading select {
         width: 100%;
     }
-    .calender .heading .col-auto{
+
+    .calender .heading .col-auto {
         margin-top: 5px;
         width: 100%;
     }
-    .calender .heading label{
+
+    .calender .heading label {
         padding-bottom: 0px;
     }
-    .dashboardContainer .calender .table td{
+
+    .dashboardContainer .calender .table td {
         padding: 5px 5px;
         font-size: 12px;
     }
-    .dashboardContainer .calender .table td .event1{
+
+    .dashboardContainer .calender .table td .event1 {
         font-size: 11px;
     }
-    .dashboardContainer .calender .table td .event2{
+
+    .dashboardContainer .calender .table td .event2 {
         font-size: 11px;
     }
-    .dashboardContainer .calender .table td .eventMore{
+
+    .dashboardContainer .calender .table td .eventMore {
         font-size: 11px;
     }
-    .invoiceList .wizardInsider{
+
+    .invoiceList .wizardInsider {
         border-bottom: 1px solid #efefef;
         padding-top: 0;
         padding-bottom: 20px;
     }
-    .borderRight{
+
+    .borderRight {
         border: none;
     }
-    .borderBottom{
+
+    .borderBottom {
         border: none;
     }
-    .invoiceList .tab-content .col-md-6{
+
+    .invoiceList .tab-content .col-md-6 {
         padding-left: 0px;
     }
 
@@ -2232,7 +2387,8 @@ a {
         margin-top: 0px;
         padding-bottom: 0px;
     }
-    .dashboardContainer .enterIntro .applyDiscount h5{
+
+    .dashboardContainer .enterIntro .applyDiscount h5 {
         margin-top: 25px;
     }
 
