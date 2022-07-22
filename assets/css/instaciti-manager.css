@@ -1790,6 +1790,7 @@ span li {
     list-style: none;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 .instacitiStar .leftBox .social li i{
     width: 40px;
@@ -1853,7 +1854,9 @@ span li {
     top: 5px;
     color: #45b636;
 }
-
+.dashboardContainer .topbar #hamburgerMenu{
+    display: none;
+}
 
 /* Main CSS Ends Here */
 
@@ -2381,6 +2384,33 @@ a {
     }
 }
 
+@media only screen and (max-width: 1024px) {
+
+    aside .sidebar {
+        width: 0%;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    .dashboardContainer {
+        width: calc(100% - 0px);
+        margin-left: auto;
+    }
+    .dashboardContainer .topbar #hamburgerMenu{
+        display: block;
+        font-size: 25px;
+        margin-right: 20px;
+    }
+    .dashboardContainer .topbar .col-md-6:first-child{
+        display: flex;
+        align-items: center;
+    }
+    aside .sidebar .logo i{
+        display: flex;
+    }
+    
+}
+
+
 
 @media only screen and (max-width: 767px) {
 
@@ -2389,6 +2419,7 @@ a {
     }
     .instacitiStar{
         padding: 15px;
+        margin-top: 0px;
     }
     .signturePreview .signatureBody {
         min-height: 350px;
@@ -2705,12 +2736,6 @@ a {
     .dashboardContainer .breadcrumpArea {
         padding: 5px 0px;
         padding-bottom: 20px;
-    }
-
-    aside .sidebar {
-        width: 0%;
-        opacity: 0;
-        transition: 0.5s;
     }
 
     .dashboardContainer {
