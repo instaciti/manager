@@ -1658,6 +1658,7 @@ span li {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 12px;
 }
 .instacitiStar .nav-link i{
     margin-right: 5px;
