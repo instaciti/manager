@@ -1161,6 +1161,14 @@ span li {
     font-size: 14px;
 }
 
+.enquiryTableWrapper .table td i{
+    font-size: 18px;
+    color: #b9b9b9;
+}
+.enquiryTableWrapper .table td i.active{
+    color: var(--Primary_Color) !important;
+}
+
 .enquiryTableWrapper h4 {
     font-size: 18px;
     margin: 0px;
@@ -2147,6 +2155,15 @@ a {
 }
 
 @media only screen and (max-width: 767px) {
+
+    .enquiryTableWrapper .table th {
+        padding: 1rem 2px;
+        font-size: 11px;
+    }
+    .enquiryTableWrapper .table td {
+        vertical-align: middle;
+        font-size: 12px;
+    }
 
     .customPagination {
         flex-direction: column;
