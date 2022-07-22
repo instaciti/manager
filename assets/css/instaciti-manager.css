@@ -1193,6 +1193,10 @@ span li {
     padding: 1rem .5rem;
 }
 
+.enquiryTableWrapper .table th:first-child{
+    width: 30%;
+}
+
 .enquiryTableWrapper .table .btn {
     background-color: var(--Primary_Color);
     color: white;
@@ -2157,12 +2161,13 @@ a {
 @media only screen and (max-width: 767px) {
 
     .enquiryTableWrapper .table th {
-        padding: 5px 2px;
+        padding: 5px 0px;
         font-size: 11px;
     }
     .enquiryTableWrapper .table td {
         vertical-align: middle;
-        font-size: 12px;
+        font-size: 11px;
+        line-height: 1.5;    
     }
 
     .customPagination {
