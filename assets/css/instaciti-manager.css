@@ -1871,6 +1871,81 @@ span li {
     display: none;
 }
 
+.enquiryTableWrapper .tableRow{
+    border: 1px solid #f0f0f0;
+    margin: 0px;
+}
+
+.enquiryTableWrapper .tableRow .col{
+    padding: 0px;
+}
+.enquiryTableWrapper .tableRow .col-md-4{
+    padding: 0px;
+}
+
+.enquiryTableWrapper .tableRow ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+.enquiryTableWrapper .tableRow ul:last-child{
+    border: none;
+}
+
+
+.enquiryTableWrapper .tableRow ul li:nth-child(1){
+    width: 35%;
+}
+
+.enquiryTableWrapper .tableRow ul li:nth-child(2){
+    width: 16.25%;
+    justify-content: center;
+}
+
+.enquiryTableWrapper .tableRow ul li:nth-child(3){
+    width: 16.25%;
+    justify-content: center;
+}
+
+.enquiryTableWrapper .tableRow ul li:nth-child(4){
+    width: 16.25%;
+    justify-content: center;
+}
+
+.enquiryTableWrapper .tableRow ul li:nth-child(4){
+    width: 16.25%;
+    justify-content: center;
+}
+
+.enquiryTableWrapper .tableRow ul li:nth-child(5){
+    width: 16.25%;
+    justify-content: center;
+}
+
+.enquiryTableWrapper .tableRow ul li{
+    list-style: none;
+    padding: 12px;
+    line-height: 1.5;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.enquiryTableWrapper .tableRow .tableHeading{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.enquiryTableWrapper .tableRow i{
+    color: #B9B9B9;
+    font-size: 18px;
+}
+.enquiryTableWrapper .tableRow  .active{
+    color: #3F51B5;
+}
+
+
 /* Main CSS Ends Here */
 
 
@@ -2160,6 +2235,36 @@ a {
 
 @media only screen and (max-width: 767px) {
 
+    .enquiryTableWrapper .tableRow{
+        border: none;
+    }
+    .enquiryTableWrapper .tableRow ul li{
+        display: inline-block;
+    }
+    .enquiryTableWrapper .tableRow ul:first-child{
+        display: none !important;
+    }
+    .enquiryTableWrapper .tableRow ul{
+        display: block !important; 
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .enquiryTableWrapper .tableRow ul li:nth-child(1) {
+        width: 100%;
+        font-weight: 600;
+    }
+    .enquiryTableWrapper .tableRow ul li:nth-child(2){
+        width: 23%;
+    }
+    .enquiryTableWrapper .tableRow ul li:nth-child(3){
+        width: 24%;
+    }
+    .enquiryTableWrapper .tableRow ul li:nth-child(4){
+        width: 24%;
+    }
+    .enquiryTableWrapper .tableRow ul li:nth-child(5){
+        width: 24%;
+    }
     .enquiryTableWrapper .table th {
         padding: 5px 0px;
         font-size: 11px;
