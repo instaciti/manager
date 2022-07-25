@@ -198,7 +198,19 @@
                 <li><a href="#"> <img src="../assets/img/5.png" alt=""> </a></li>
                 <!-- <li><a href="#"> <img src="../assets/img/6.png" alt=""> </a></li> -->
                 <li class="line"></li>
-                <li class="userProfile"><a href="#"> <img src="../assets/img/Ellipse 97.png" alt=""> </a></li>
+                <li class="userProfile">
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle p-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="../assets/img/Ellipse 97.png" alt=""> 
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">
+                        <i class="fa-regular fa-user"></i> My Profile</a></li>
+
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>
+                    </ul>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -238,38 +250,42 @@
                     </a>
                 </div>
                 <div class="col-md-9">
+
+                  <div class="floatRight">
                     <h5>Filter contacts based on tags</h5>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" checked>
                         <label class="form-check-label" for="inlineCheckbox1">Customer</label>
-                      </div>
+                    </div>
 
-                      <div class="form-check form-check-inline">
+                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" checked>
                         <label class="form-check-label" for="inlineCheckbox2">Default</label>
-                      </div>
+                    </div>
 
-                      <div class="form-check form-check-inline">
+                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbo" value="option2" checked>
                         <label class="form-check-label" for="inlineCheckbo">Incomplete</label>
-                      </div>
+                    </div>
 
-                      <div class="form-check form-check-inline">
+                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCheck" value="option2" checked>
                         <label class="form-check-label" for="inlineCheck">Invoice
                         </label>
-                      </div>
+                    </div>
 
-                      <div class="form-check form-check-inline">
+                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCheckb2" value="option2" checked>
                         <label class="form-check-label" for="inlineCheckb2">Priority</label>
-                      </div>
+                    </div>
 
-                      <div class="form-check form-check-inline">
+                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCckb2" value="option2" checked>
                         <label class="form-check-label" for="inlineCckb2">Supplier</label>
-                      </div>
+                    </div>
+                  </div>
+
 
                 </div>
             </div>
@@ -311,8 +327,11 @@
                                   <i class="fa-solid fa-ellipsis-vertical primaryColor ms-3"></i>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" href="#">Send Payment Links</a></li>
-                                  <li><a class="dropdown-item" href="#">Print Invoice</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pencil"></i> Edit</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash-can"></i> Delete</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrows-rotate"></i> Followup </a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hand-wave"></i> Say Hello</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
                                 </ul>
                               </div>
                             </td>
@@ -332,8 +351,11 @@
                                   <i class="fa-solid fa-ellipsis-vertical primaryColor ms-3"></i>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" href="#">Send Payment Links</a></li>
-                                  <li><a class="dropdown-item" href="#">Print Invoice</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pencil"></i> Edit</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash-can"></i> Delete</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrows-rotate"></i> Followup </a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hand-wave"></i> Say Hello</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
                                 </ul>
                               </div>
                             </td>
@@ -353,30 +375,11 @@
                                   <i class="fa-solid fa-ellipsis-vertical primaryColor ms-3"></i>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" href="#">Send Payment Links</a></li>
-                                  <li><a class="dropdown-item" href="#">Print Invoice</a></li>
-                                </ul>
-                              </div>
-                            </td>
-                          </tr>
-          
-          
-                          <tr>
-                            <td>INV-4362</td>
-                            <td>Alok6</td>
-                            <td> Wed Dec 22 2021</td>
-                            <td> Fri Jan 21 2022</td>
-                            <td>2080 </td>
-                            <td>2080 </td>
-                            <td>0 </td>
-                            <td>
-                              <div class="dropdown">
-                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                  <i class="fa-solid fa-ellipsis-vertical primaryColor ms-3"></i>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" href="#">Send Payment Links</a></li>
-                                  <li><a class="dropdown-item" href="#">Print Invoice</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pencil"></i> Edit</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash-can"></i> Delete</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrows-rotate"></i> Followup </a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hand-wave"></i> Say Hello</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
                                 </ul>
                               </div>
                             </td>
@@ -397,8 +400,11 @@
                                   <i class="fa-solid fa-ellipsis-vertical primaryColor ms-3"></i>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" href="#">Send Payment Links</a></li>
-                                  <li><a class="dropdown-item" href="#">Print Invoice</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pencil"></i> Edit</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash-can"></i> Delete</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrows-rotate"></i> Followup </a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hand-wave"></i> Say Hello</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
                                 </ul>
                               </div>
                             </td>
@@ -419,8 +425,36 @@
                                   <i class="fa-solid fa-ellipsis-vertical primaryColor ms-3"></i>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" href="#">Send Payment Links</a></li>
-                                  <li><a class="dropdown-item" href="#">Print Invoice</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pencil"></i> Edit</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash-can"></i> Delete</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrows-rotate"></i> Followup </a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hand-wave"></i> Say Hello</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+          
+          
+                          <tr>
+                            <td>INV-4362</td>
+                            <td>Alok6</td>
+                            <td> Wed Dec 22 2021</td>
+                            <td> Fri Jan 21 2022</td>
+                            <td>2080 </td>
+                            <td>2080 </td>
+                            <td>0 </td>
+                            <td>
+                              <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <i class="fa-solid fa-ellipsis-vertical primaryColor ms-3"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pencil"></i> Edit</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash-can"></i> Delete</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrows-rotate"></i> Followup </a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hand-wave"></i> Say Hello</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
                                 </ul>
                               </div>
                             </td>
@@ -440,8 +474,11 @@
                                   <i class="fa-solid fa-ellipsis-vertical primaryColor ms-3"></i>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" href="#">Send Payment Links</a></li>
-                                  <li><a class="dropdown-item" href="#">Print Invoice</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pencil"></i> Edit</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash-can"></i> Delete</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrows-rotate"></i> Followup </a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hand-wave"></i> Say Hello</a></li>
+                                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
                                 </ul>
                               </div>
                             </td>

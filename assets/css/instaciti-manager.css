@@ -456,6 +456,31 @@ aside .sidebar .subMenu {
     margin-left: 15px;
 }
 
+.dashboardContainer .topbar ul li .dropdown-toggle::after{
+    display: none;
+}
+
+.dashboardContainer .topbar ul li .dropdown-menu{
+    border-color: #e9e9e9;
+    padding: 5px;
+}
+.dashboardContainer .topbar ul li .dropdown-item{
+    font-size: 14px;
+    padding-bottom: 5px;
+    color: #5a5959 !important;
+    font-weight: 600;
+}
+
+.dashboardContainer .topbar ul li .dropdown-item:hover{
+    background-color: #fff;
+}
+
+.dashboardContainer .topbar ul li .dropdown-item i{
+    color: #D1D4E1;
+    margin-right: 5px;
+}
+
+
 .dashboardContainer .topbar {
     background-color: white;
     padding: 20px;
@@ -1026,6 +1051,23 @@ span li {
     padding: 12px;
     border-color: #f0f0f0;
 }
+
+.dashboardContainer .serviceList table td .dropdown-menu{
+    border-color: #e9e9e9;
+}
+
+.dashboardContainer .serviceList table td .dropdown-item {
+    color: #5a5959 !important;
+    font-size: 14px;
+}
+.dashboardContainer .serviceList table td .dropdown-item:hover{
+    background-color: #fff;
+}
+.dashboardContainer .serviceList table td .dropdown-item i{
+    margin-right: 5px;
+    color: #a7a7a7;
+}
+
 
 .dashboardContainer .serviceList table tr:nth-child(even) {
     background-color: #f0f0f0;
@@ -1598,7 +1640,10 @@ span li {
     border-radius: 10px;
     padding: 25px 25px;
     box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
-    ;
+}
+
+.dashboardContainer .contactManger .floatRight{
+    float: right;
 }
 
 .dashboardContainer .contactManger .heading {
