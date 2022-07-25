@@ -1642,6 +1642,31 @@ span li {
     box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
 }
 
+.dashboardContainer .contactManger .dropdown-menu{
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.dashboardContainer .contactManger .dropdown-menu a{
+    color: #4e4e4e !important;
+    font-size: 14px;
+}
+
+.dashboardContainer .contactManger .dropdown-menu::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+
+  /* Track */
+  .dashboardContainer .contactManger .dropdown-menu::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .dashboardContainer .contactManger .dropdown-menu::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
 .dashboardContainer .contactManger .floatRight{
     float: right;
 }
