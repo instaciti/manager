@@ -1664,7 +1664,7 @@ span li {
    
   /* Handle */
   .dashboardContainer .contactManger .dropdown-menu::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #D2D2D2; 
   }
 
 .dashboardContainer .contactManger .floatRight{
