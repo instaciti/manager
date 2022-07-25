@@ -1701,12 +1701,12 @@ span li {
 
 .instacitiStar .nav{
     background-color: #d3daff38;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
 }
 
 .instacitiStar .nav-item{
-    width: 16.66%;
+    width: 14.28%;
 }
 .instacitiStar .nav-link{
     width: 100%;
@@ -1715,7 +1715,8 @@ span li {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 12px;
+    padding: 10px;
+    font-size: 16px;
 }
 .instacitiStar .nav-link i{
     margin-right: 5px;
@@ -1898,7 +1899,7 @@ span li {
     border-color: #3F51B5 !important;
 }
 .instacitiStar .leftBox .freeTheme .inner .box{
-    height: 80px;
+    height: 120px;
     width: 100%;
     background-color: #F6F6F6;
     border-radius: 5px;
@@ -2426,10 +2427,15 @@ a {
 
 @media only screen and (max-width:1440px) {
 
+    .instacitiStar .nav-link{
+        font-size: 14px;
+    }
+    .instacitiStar .leftBox .freeTheme .inner .box{
+        height: 80px;
+    }
     .dashboardContainer .billingList h5 {
         font-size: 20px;
     }
-
     .onlyTxt ul li {
         display: block;
         padding: 0px 0px;
