@@ -2600,7 +2600,7 @@ a {
         margin-left: auto;
     }
     .dashboardContainer .topbar #hamburgerMenu{
-        display: block;
+        display: block !important;
         font-size: 25px;
         margin-right: 20px;
     }
@@ -2610,6 +2610,9 @@ a {
     }
     aside .sidebar .logo i{
         display: flex;
+    }
+    .dashboardContainer .topbar ul li{
+        margin-left: 10px;
     }
     
 }
@@ -2933,6 +2936,7 @@ a {
     .dashboardContainer .topbar ul .line {
         height: unset !important;
         top: 0px !important;
+        display: none;
     }
 
     .infoAccrodions {
