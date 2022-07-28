@@ -496,6 +496,7 @@ aside .sidebar .subMenu {
 .dashboardContainer .famousOne .todos img {
     box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
     margin-right: 25px;
+    width: 80px;
 }
 
 .dashboardContainer .famousOne h5 {
@@ -522,7 +523,7 @@ aside .sidebar .subMenu {
     font-size: 22px;
     color: #333;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .dashboardContainer {
@@ -594,10 +595,13 @@ aside .sidebar .subMenu {
     background-color: white !important;
     padding: 20px;
     border-radius: 10px;
+    position: sticky;
+    top: 24px;
+    z-index: 111;
 }
 
 .dashboardContainer .breadcrumpArea {
-    padding: 25px 0px;
+    padding: 30px 0px;
     padding-bottom: 35px;
 }
 
@@ -2612,7 +2616,7 @@ span li {
     }
 
     .emptyBox {
-        margin: 30px 0px;
+        margin: 10px 0px;
         height: 193px;
         padding: 50px;
         box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
@@ -2760,6 +2764,15 @@ span li {
     }
     .dashboardContainer .topbar .resturentName {
         font-size: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+    .dashboardContainer .topbar{
+        top: 5px;
     }
 }
 
@@ -3152,6 +3165,7 @@ span li {
         padding: 15px;
         box-shadow: none;
         background-color: transparent !important;
+        position: initial;
     }
 
     .dashboardContainer .topbar .col-md-6:first-child {
