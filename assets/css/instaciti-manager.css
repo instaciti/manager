@@ -600,6 +600,16 @@ aside .sidebar .subMenu {
     z-index: 111;
 }
 
+.dashboardContainer .topbar::before{
+    content: '';
+    width: 105%;
+    height: 30px;
+    position: absolute;
+    top: -30px;
+    left: -3%;
+    background-color: #F8F8FB;
+}
+
 .dashboardContainer .breadcrumpArea {
     padding: 30px 0px;
     padding-bottom: 35px;
@@ -2161,6 +2171,61 @@ span li {
     height: 70px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.instacitiStar .leftBox .qLinks{
+    padding: 0px;
+    margin: 0px;
+}
+.instacitiStar .leftBox .qLinks li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0px;
+}
+
+.instacitiStar .leftBox .qLinks li:last-child{
+    border: none;
+    padding-bottom: 0px;
+}
+
+.instacitiStar .leftBox .qLinks li .leftPane{
+    width: 10%;
+}
+
+.instacitiStar .leftBox .qLinks li .leftPane i{
+    color: tomato;
+    font-size: 18px;
+}
+.instacitiStar .leftBox .qLinks li .middlePane{
+    width: 80%;
+    padding-right: 15px;
+}
+
+.instacitiStar .leftBox .qLinks li .rightPane{
+    width: 10%;
+}
+
+.instacitiStar .leftBox .qLinks li .rightPane i{
+    color: #3f51b5;
+    font-size: 18px;
+}
+
+.instacitiStar .leftBox .qLinks li h5{
+    margin-bottom: 0px;
+    color: #3b3838;
+    font-size: 14px;
+}
+.instacitiStar .leftBox .qLinks li a{
+    color: gray !important;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
 
