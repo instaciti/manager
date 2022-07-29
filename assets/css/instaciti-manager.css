@@ -600,7 +600,7 @@ aside .sidebar .subMenu {
     z-index: 111;
 }
 
-.dashboardContainer .topbar::before{
+/* .dashboardContainer .topbar::before{
     content: '';
     width: 105%;
     height: 30px;
@@ -608,6 +608,16 @@ aside .sidebar .subMenu {
     top: -30px;
     left: -3%;
     background-color: #F8F8FB;
+} */
+
+.dashboardContainer .strip{
+    width: 100%;
+    height: 35px;
+    position: fixed;
+    top: 0px;
+    right: -0%;
+    background-color: #F8F8FB;
+    z-index: 1;
 }
 
 .dashboardContainer .breadcrumpArea {
@@ -2408,6 +2418,9 @@ span li {
 
 @media only screen and (max-width: 767px) {
 
+    .dashboardContainer .strip{
+        display: none;
+    }
     .enquiryTableWrapper .tableRow {
         border: none;
     }
