@@ -380,7 +380,7 @@ aside .sidebar .accordion-button {
 }
 
 aside .sidebar .accordion-button:not(.collapsed)::after {
-    background-image: url(../img/down.svg);
+    background-image: url(https://dkzxkcjlbnjui.cloudfront.net/portal/instaciti-manager/images/down.svg);
     transform: rotate(-0deg);
 }
 
@@ -390,7 +390,7 @@ aside .sidebar .accordion-button::after {
     height: 1rem;
     margin-left: auto;
     content: "";
-    background-image: url(../img/down2.svg);
+    background-image: url(https://dkzxkcjlbnjui.cloudfront.net/portal/instaciti-manager/images/down2.svg);
     background-size: contain;
     transition: transform .2s ease-in-out;
     transform: rotate(0deg);
@@ -470,12 +470,12 @@ aside .sidebar .subMenu .accordion-button:not(.collapsed) {
 }
 
 aside .sidebar .subMenu .accordion-button::after {
-    background-image: url(../img/down3.svg);
+    background-image: url(https://dkzxkcjlbnjui.cloudfront.net/portal/instaciti-manager/images/down3.svg);
     transform: rotate(-90deg);
 }
 
 aside .sidebar .subMenu .accordion-button:not(.collapsed)::after {
-    background-image: url(../img/down3.svg);
+    background-image: url(https://dkzxkcjlbnjui.cloudfront.net/portal/instaciti-manager/images/down3.svg);
     transform: rotate(-0deg);
 }
 
@@ -2669,6 +2669,65 @@ span li {
     padding: 10px 15px !important;
     border-radius: 50px !important;
     font-size: 14px !important;
+}
+
+.myLine {
+    height: 1px;
+    width: 100%;
+    background-color: #efefef;
+    margin: 10px 0px;
+}
+
+.cdk-overlay-container {
+    z-index: 9999 !important;
+}
+
+.mat-option.mat-active {
+    background: #ffffff0a !important;
+    color: #000 !important;
+}
+
+.mat-autocomplete-panel {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.mat-option {
+    color: #000 !important;
+}
+
+.mat-form-field-label,
+.mat-hint {
+    color: #0f0f0fb3 !important;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    border-radius: 4px 4px 4px 4px;
+    background-color: #c4c4c41a;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-top-color: rgb(206, 212, 218);
+    border-right-color: rgb(206, 212, 218);
+    border-bottom-color: rgb(206, 212, 218);
+    border-left-color: rgb(206, 212, 218);
+    border-top-color: rgb(206, 212, 218);
+    border-right-color: rgb(206, 212, 218);
+    border-bottom-color: rgb(206, 212, 218);
+    border-left-color: rgb(206, 212, 218);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+a:hover {
+    cursor: pointer!important;
 }
 
 /* My Custom CSS Ends Here */
