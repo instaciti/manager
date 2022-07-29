@@ -523,7 +523,7 @@ aside .sidebar .subMenu {
     font-size: 22px;
     color: #333;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .dashboardContainer {
@@ -600,7 +600,7 @@ aside .sidebar .subMenu {
     z-index: 111;
 }
 
-.dashboardContainer .topbar::before{
+.dashboardContainer .topbar::before {
     content: '';
     width: 105%;
     height: 30px;
@@ -611,7 +611,7 @@ aside .sidebar .subMenu {
 }
 
 .dashboardContainer .breadcrumpArea {
-    padding: 30px 0px;
+    padding: 25px 0px;
     padding-bottom: 35px;
 }
 
@@ -1998,8 +1998,8 @@ span li {
 
 .signturePreview .signatureBody {
     min-height: 350px;
-    padding: 30px;
-    padding-top: 40px;
+    /* padding: 30px;
+    padding-top: 40px; */
     overflow: hidden;
 }
 
@@ -2159,25 +2159,26 @@ span li {
 
 .enquiryTableWrapper .tableRow i {
     color: #B9B9B9;
-    font-size: 18px;
+    font-size: 40px;
 }
 
 .enquiryTableWrapper .tableRow .active {
     color: #3F51B5;
 }
 
-.dashboardContainer .topbar img{
+.dashboardContainer .topbar img {
     width: 70px;
     height: 70px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.instacitiStar .leftBox .qLinks{
+.instacitiStar .leftBox .qLinks {
     padding: 0px;
     margin: 0px;
 }
-.instacitiStar .leftBox .qLinks li{
+
+.instacitiStar .leftBox .qLinks li {
     list-style: none;
     display: flex;
     align-items: center;
@@ -2185,39 +2186,41 @@ span li {
     padding: 15px 0px;
 }
 
-.instacitiStar .leftBox .qLinks li:last-child{
+.instacitiStar .leftBox .qLinks li:last-child {
     border: none;
     padding-bottom: 0px;
 }
 
-.instacitiStar .leftBox .qLinks li .leftPane{
+.instacitiStar .leftBox .qLinks li .leftPane {
     width: 10%;
 }
 
-.instacitiStar .leftBox .qLinks li .leftPane i{
+.instacitiStar .leftBox .qLinks li .leftPane i {
     color: tomato;
     font-size: 18px;
 }
-.instacitiStar .leftBox .qLinks li .middlePane{
+
+.instacitiStar .leftBox .qLinks li .middlePane {
     width: 80%;
     padding-right: 15px;
 }
 
-.instacitiStar .leftBox .qLinks li .rightPane{
+.instacitiStar .leftBox .qLinks li .rightPane {
     width: 10%;
 }
 
-.instacitiStar .leftBox .qLinks li .rightPane i{
+.instacitiStar .leftBox .qLinks li .rightPane i {
     color: #3f51b5;
     font-size: 18px;
 }
 
-.instacitiStar .leftBox .qLinks li h5{
+.instacitiStar .leftBox .qLinks li h5 {
     margin-bottom: 0px;
     color: #3b3838;
     font-size: 14px;
 }
-.instacitiStar .leftBox .qLinks li a{
+
+.instacitiStar .leftBox .qLinks li a {
     color: gray !important;
     font-size: 14px;
     overflow: hidden;
@@ -2227,7 +2230,6 @@ span li {
     line-clamp: 1;
     -webkit-box-orient: vertical;
 }
-
 
 /* Main CSS Ends Here */
 
@@ -2476,7 +2478,7 @@ span li {
 @media (max-width: 576px) {
 
     .mobileView {
-        display: none;
+        display: none !important;
     }
 
     .oneClickUpgrade {
@@ -2500,11 +2502,16 @@ span li {
     .hideDesktop {
         display: block;
     }
+
+    .enquiryTableWrapper .tableRow i {
+        color: #B9B9B9;
+        font-size: 18px;
+    }
 }
 
 
 .mobileUpgradeBox {
-    height: 130px;
+    height: 145px;
     box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
     border-radius: 10px;
     background: #e91e63;
@@ -2552,9 +2559,7 @@ span li {
 }
 
 .oneClickUpgrade {
-    border-radius: 10px;
-    padding: 20px;
-    width: 300px;
+    border-radius: 5px;
     text-align: center;
     background-color: #ffffff;
     color: #e91e63 !important;
@@ -2582,6 +2587,24 @@ span li {
     margin-top: 15px;
     font-size: 22px;
 }
+
+/* .tooltip-inner {
+    background-color: #3A1593;
+    box-shadow: 0px 0px 4px black;
+    opacity: 1 !important;
+}
+.tooltip.bs-tooltip-right .tooltip-arrow::before {
+    border-right-color: #3A1593 !important;
+}
+.tooltip.bs-tooltip-left .tooltip-arrow::before {
+    border-left-color: #3A1593 !important;
+}
+.tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: #3A1593!important;
+}
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #3A1593 !important;
+} */
 
 /* My Custom CSS Ends Here */
 
@@ -2654,8 +2677,21 @@ span li {
 
 @media only screen and (max-width:1440px) {
 
+    .font18 {
+        font-size: 16px !important;
+        line-height: 27px;
+    }
+
     .instacitiStar .nav-link {
         font-size: 14px;
+    }
+
+    .dashboardContainer .famousOne .todos img {
+        width: 60px;
+    }
+
+    .dashboardContainer .famousOne ul .heading {
+        font-size: 18px;
     }
 
     .instacitiStar .leftBox .freeTheme .inner .box {
@@ -2681,7 +2717,7 @@ span li {
     }
 
     .emptyBox {
-        margin: 10px 0px;
+        margin: 30px 0px;
         height: 193px;
         padding: 50px;
         box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
@@ -2734,7 +2770,7 @@ span li {
     .dashboardContainer .topbar ul li {
         list-style: none;
         display: inline-block;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .dashboardContainer .breadcrumpArea .searchBox {
@@ -2788,6 +2824,15 @@ span li {
     .iconTxt {
         text-align: center;
     }
+
+    .dashboardContainer .famousOne ul .heading {
+        font-size: 18px;
+    }
+
+    .enquiryTableWrapper .tableRow i {
+        color: #B9B9B9;
+        font-size: 26px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2803,7 +2848,7 @@ span li {
     }
 
     .dashboardContainer .topbar #hamburgerMenu {
-        display: block!important;
+        display: block !important;
         font-size: 25px;
         margin-right: 20px;
     }
@@ -2822,11 +2867,13 @@ span li {
     }
 }
 
+
 @media only screen and (max-width: 800px) {
     .markIcon img {
         width: 40px !important;
         height: 40px !important;
     }
+
     .dashboardContainer .topbar .resturentName {
         font-size: 18px;
         overflow: hidden;
@@ -2836,7 +2883,8 @@ span li {
         line-clamp: 1;
         -webkit-box-orient: vertical;
     }
-    .dashboardContainer .topbar{
+
+    .dashboardContainer .topbar {
         top: 5px;
     }
 }
@@ -2861,8 +2909,8 @@ span li {
 
     .signturePreview .signatureBody {
         min-height: 350px;
-        padding: 15px;
-        padding-top: 25px;
+        /* padding: 15px;
+        padding-top: 25px; */
         overflow: hidden;
     }
 
