@@ -1350,7 +1350,7 @@ span li {
 
 .enquiryTableWrapper .table td i {
     font-size: 18px;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .enquiryTableWrapper .table td i.active {
