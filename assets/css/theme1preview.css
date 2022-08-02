@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+
+/* body {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px;
+    line-height: 21px;
+} */
+
+.cWebcardmap {
+    height: 350px;
+    width: 100% !important;
+}
+
+.sendButton {
+    height: 50px;
+}
+
+.closeIcon {
+    padding-bottom: 10px;
+}
+
+.notificationIcon {
+    width: 26px;
+}
+
+.instaSignatureBranding {
+    font-family: 'Corinthia', cursive;
+    font-weight: 700 !important;
+    font-size: 32px;
+    color: #FF0000;
+}
+
+.penIcon {
+    font-size: 26px;
+    width: 30px;
+}
+
+.clickHere {
+    font-size: 14px;
+    font-style: italic;
+    color: #381490;
+}
+
+
+/* GREEN THEME START */
+
+.classesForBgImage {
+    background-image: url("https://dkzxkcjlbnjui.cloudfront.net/portal/signature/image/green-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* height: 100vh; */
+}
+
+.blackColor {
+    color: #383838;
+}
+
+.quickLinkColor {
+    color: #313135!important;
+}
+
+.darkGray {
+    color: #50504C;
+}
+
+.blackHeadingColor {
+    color: #272727;
+}
+
+.greenColor {
+    color: #009F92;
+}
+
+.greenBg {
+    background-color: #009F92!important;
+}
+
+.midGreen {
+    color: #BEF7F1!important;
+}
+
+.midGreenBg {
+    background-color: #BEF7F1;
+}
+
+.yellowBg {
+    background-color: #FDC334!important;
+}
+
+.lightPinkBg {
+    background-color: #FFE9EF;
+}
+
+.lightYellowBg {
+    background-color: #FFFFD7;
+}
+
+.lightPurpleBg {
+    background-color: #bef7f1;
+}
+
+.lightGreenBg {
+    background-color: #BEF7F1;
+}
+
+.lightPurpleBgCustom {
+    background-color: #F3EEFF;
+}
+
+.mutedLightPurple {
+    background-color: #F2F2FF;
+}
+
+.mutedBg {
+    background-color: #ffffff;
+}
+
+.pupleTextLight {
+    color: #6867B4;
+}
+
+.redColor {
+    color: #DE011D;
+}
+
+.purpleColor {
+    color: #3A1593;
+}
+
+.purpleColor a {
+    color: #3A1593;
+}
+
+.greenColor a {
+    color: #009F92;
+}
+
+.blueBorder {
+    border: 2px solid #1878F3;
+}
+
+.twitterBorder {
+    border: 2px solid #1D9EEF;
+}
+
+.linkDinBorder {
+    border: 2px solid #2965B0;
+}
+
+.youtubeBorder {
+    border: 2px solid #FE0000;
+}
+
+.pinterestBorder {
+    border: 2px solid #DE011D;
+}
+
+.instaBorder {
+    border: 2px solid #8E3AA2;
+}
+
+.businessLogo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.qrImage {
+    width: 200px;
+}
+
+
+/* GREEN THEME END */
+
+.alertClose {
+    background-image: none;
+}
+
+.customGapping {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.mobileView {
+    display: none;
+}
+
+.textDecorationNone a {
+    text-decoration: none;
+}
+
+.textDecorationNone {
+    text-decoration: none !important;
+}
+
+.square48 {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.circle64 {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: 0px !important;
+}
+
+.tabBottomBorder {
+    border-bottom: 1px solid #009F92 !important;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.nav-tabs .tab-link:hover {
+    border-color: #ffffff;
+    color: #272727 !important;
+}
+
+.nav-tabs .tab-link.active {
+    border-bottom: 5px solid #009F92;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.nav-tabs .nav-link.active {
+    border-bottom: 5px solid #009F92;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.borderRadius10 {
+    border-radius: 10px;
+}
+
+.borderRadius36 {
+    border-radius: 36.6663px!important;
+}
+
+.floatLeft {
+    float: left !important;
+}
+
+.font500 {
+    font-weight: 500;
+}
+
+.font600 {
+    font-weight: 600;
+}
+
+.font28 {
+    font-size: 28.3831px;
+    line-height: 43px;
+}
+
+.font22 {
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.font18 {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.font16 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.font14 {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* .footerSection {
+    bottom: 0;
+    position: fixed;
+} */
+
+
+
+
+/* Responsive Part Start Here */
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* .classForBgColor {
+        background-color: #6867B4;
+        color: #ffffff !important;
+    } */
+
+    /* .classesForBgImage {
+        background-image: none;
+    } */
+
+    .customGapping {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .notificationIcon {
+        width: 20px;
+    }
+
+    .closeIcon {
+        padding-bottom: 10px;
+        width: 15px;
+    }
+
+    .desktopView {
+        display: none;
+    }
+
+    .mobileView {
+        display: inline;
+    }
+
+    .circle64 {
+        height: 35px;
+        width: 35px;
+    }
+
+    .font28 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .font22 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .font16 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .font14 {
+        font-size: 11.7332px;
+        line-height: 18px;
+    }
+
+    .instaSignatureBranding {
+        font-size: 22px;
+    }
+
+    .penIcon {
+        font-size: 20px;
+        width: 20px;
+    }
+
+    .clickHere {
+        font-size: 12px;
+        font-style: italic;
+        color: #381490;
+    }
+
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 576.98px) and (max-width: 767px) {}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 1198px) {
+    .customGapping {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .font16 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .font14 {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .paddingLeftCustom {
+        padding-left: 2% !important;
+    }
+
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) and (max-width: 1398px) {
+    .paddingLeftCustom {
+        padding-left: 15%;
+    }
+}
+
+@media (min-width: 1400.98px) and (max-width: 1599.98px) {
+    .paddingLeftCustom {
+        padding-left: 15%;
+    }
+}
+
+@media (max-width: 1798.98px) {
+    .paddingLeftCustom {
+        padding-left: 15%;
+    }
+}
+
+@media (min-width: 1799.98px) and (max-width: 1950px) {
+    .customGapping {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .paddingLeftCustom {
+        padding-left: 10%;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2560px) {
+    .customGapping {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .paddingLeftCustom {
+        padding-left: 15%;
+    }
+}
+
+
+/* Show/Hide Element Controls */
+
+/* .cFacebook_Hide,
+.cTwitter_Hide,
+.cLinkedIn_Hide,
+.cInstagram_Hide,
+.cPinterest_Hide,
+.cYoutube_Hide,
+.cAnnouncement_Hide,
+.cCall_Hide,
+.cContact_Hide {
+    display: none !important;
+}
+
+.cFacebook_Show,
+.cTwitter_Show,
+.cLinkedIn_Show,
+.cInstagram_Show,
+.cPinterest_Show,
+.cYoutube_Show,
+.cAnnouncement_Show,
+.cCall_Show,
+.cContact_Show {
+    display: block;
+} */
