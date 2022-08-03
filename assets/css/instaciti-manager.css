@@ -610,19 +610,6 @@ aside .sidebar .subMenu {
     z-index: 111;
 }
 
-<<<<<<< HEAD
-/* .dashboardContainer .topbar::before{
-=======
-.dashboardContainer .topbar::before {
->>>>>>> fb54d18ec7e4b46de1dedd8b054f4f87d5902738
-    content: '';
-    width: 105%;
-    height: 30px;
-    position: absolute;
-    top: -30px;
-    left: -3%;
-    background-color: #F8F8FB;
-} */
 
 .dashboardContainer .strip {
     width: 100%;
@@ -1869,8 +1856,43 @@ span li {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
-    margin-top: 25px;
 }
+
+.instacitiStar hr{
+    margin-bottom: 30px;
+}
+
+.instacitiStar .topSection label{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.instacitiStar .topSection select{
+    border-color: #ddd;
+    border-radius: 7px;
+    color: #9C9C9C;
+    margin-bottom: 20px;
+}
+
+.instacitiStar .topSection .btn{
+    background-color: #3F51B5;
+    color: white;
+    width: 100%;
+    margin-top: 28px;
+}
+
+.instacitiStar .topSection .themeName{
+    color: #3F51B5;
+    font-weight: 600;
+    font-size: 16px;
+}
+.instacitiStar .topSection .themeName span{
+    float: right;
+    color: #2BAC5E;
+    font-size: 14px;
+    font-weight: 700;
+}
+
 
 .instacitiStar .nav {
     background-color: #d3daff38;
