@@ -694,6 +694,17 @@ aside .sidebar .subMenu {
     border-radius: 10px;
 }
 
+.dashboardContainer .enterIntro select{
+    margin-bottom: 20px;
+}
+
+.dashboardContainer .enterIntro .media{
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
 .dashboardContainer .enterIntro th {
     padding: 12px;
     vertical-align: middle;
@@ -2277,6 +2288,83 @@ span li {
     -webkit-box-orient: vertical;
 }
 
+.mediaContainer .mediaImage .uploadBtn{
+    background-color: #e3d8ff;
+    color: #3A1593 !important;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+}
+
+.mediaContainer .mediaImage .uploadBtn input{
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+.mediaContainer .mediaImage .deleteBtn{
+    background-color: #FFD3E9;
+    color: #E70777 !important;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.mediaContainer .mediaImage .thunderBtn{
+    background-color: #FFD1C1;
+    color: #F15A25 !important;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.mediaContainer .mediaImage .saveBtn{
+    background-color: #3F51B5;
+    color: #fff !important;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+.dashboardContainer .enterIntro .mediaVideo{
+    display: none;
+}
+
+.dashboardContainer .enterIntro .mediaVideo video{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.dashboardContainer .enterIntro .mediaVideo .item img{
+    border-radius: 10px;
+}
+
+#sliderImgThumb{
+    margin-bottom: 30px;
+    padding: 0px 25px;
+}
+#sliderImgThumb .item img{
+    border-radius: 7px;
+    height: 60px;
+    object-fit: cover;
+}
+
+#sliderImgThumb .owl-nav.disabled{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 55px;
+    color: gray;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 15px;
+}
+
+
 /* Main CSS Ends Here */
 
 
@@ -3036,6 +3124,13 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
 
+    .dashboardContainer .enterIntro .media{
+        height: 220px;
+    }
+    .mediaContainer .text-end{
+        text-align: left !important;
+        margin-top: 20px;
+    }
     .enquiryTableWrapper .table strong {
         padding: 5px;
         font-weight: 700;
