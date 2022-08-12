@@ -292,11 +292,11 @@
                 <div class="enterIntro cardBoxShadow">
 
                   <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-8">
                       <div class="mb-0">
                         <label for="exampleFormControlTextarea1" class="form-label">Media Type </label>
     
-                        <select class="form-select" aria-label="Default select example">
+                        <select class="form-select" id="select" aria-label="Default select example">
                           <option value="red">Image</option>
                           <option value="green">Youtube Video</option>
                           <option value="blue">Slider</option>
@@ -307,20 +307,31 @@
                             <img src="./assets/img/media.jpg" class="img-fluid media" alt="">
 
                             <div class="row">
-                              <div class="col-md-6">
-                                <a href="#">
+                              <div class="col-md-8">
+                                <a>
                                   <button class="btn uploadBtn" type="button">
                                     <i class="fa-solid fa-arrow-up-from-bracket"></i>
                                     Upload
-
                                     <input type="file">
                                   </button>
                                 </a>
 
+                                <a>
+                                  <button class="btn textBtn" type="button">
+                                    <i class="fa-solid fa-text"></i>
+                                  </button>
+                                </a>
+
+                                <a>
+                                  <button class="btn settingBtn" type="button">
+                                    <i class="fa-solid fa-gear"></i>
+                                  </button>
+                                </a>
+
+
                                 <a href="#">
                                   <button class="btn deleteBtn" type="button">
                                     <i class="fa-solid fa-trash-can"></i>
-                                    
                                   </button>
                                 </a>
 
@@ -332,13 +343,72 @@
                                 </a>
                               </div>
 
-                              <div class="col-md-6 text-end">
+                              <div class="col-md-4 text-end">
                                 <a href="#">
                                   <button class="btn saveBtn" type="button">Save Media Settings</button>
                                 </a>
                               </div>
+                              <p class="note">* Note : Maximum file size is 10MB </p>
+                            </div>
+
+                            <div class="text">
+                              <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label"> Header *</label>
+                                <input type="text" class="form-control" >
+                              </div>
+
+                              <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Sub Header *</label>
+                                <input type="text" class="form-control" >
+                              </div>
+
+                              <div class="">
+                                <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                                <textarea class="form-control" rows="5"></textarea>
+                              </div>
 
                             </div>
+
+                            <div class="settings">
+                              <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Opacity :</label>
+
+                                <div class="col-sm-10 my-auto">
+                                  <input type="range" min="1" max="100" value="50" class="slider w-100" id="myRange">
+                                </div>
+                              </div>
+
+                              <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Overlay :</label>
+
+                                <div class="col-sm-10 my-auto">
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Yes</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked>
+                                    <label class="form-check-label" for="inlineRadio2">No</label>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Z-index :</label>
+
+                                <div class="col-sm-10 my-auto">
+                                  <select class="form-select" aria-label="Default select example">
+                                    <option selected>Choose an option</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                                </div>
+
+                              </div>
+
+                            </div>
+
                           </div>
                           
 
@@ -350,13 +420,15 @@
                             </video>
 
                             <div class="row">
+                              <div class="col-12">
+                                <input type="text" class="form-control pasteLink" placeholder="Paste link here">
+                              </div>
+
                               <div class="col-md-6">
-                                <a href="#">
-                                  <button class="btn uploadBtn" type="button">
+                                <a>
+                                  <button class="btn uploadBtn" id="uploadLink" type="button">
                                     <i class="fa-solid fa-arrow-up-from-bracket"></i>
                                     Upload
-
-                                    <input type="file">
                                   </button>
                                 </a>
 
@@ -688,7 +760,7 @@
     
 
 
-    $("select").change(function(){
+    $("#select").change(function(){
         $(this).find("option:selected").each(function(){
             var optionValue = $(this).attr("value");
             if(optionValue){
@@ -729,7 +801,30 @@ $('#sliderImgThumb').owlCarousel({
             items:5
         },
     }
-})
+});
+
+$(".mediaContainer .mediaImage .textBtn").click(function(){
+  $(".mediaImage .text").toggle();
+});
+
+$(".mediaContainer .mediaImage .textBtn").click(function(){
+  $(".mediaImage .settings").hide();
+  $(".mediaImage .text").show();
+});
+
+$(".mediaContainer .mediaImage .settingBtn").click(function(){
+  $(".mediaImage .settings").toggle();
+});
+
+$(".mediaContainer .mediaImage .settingBtn").click(function(){
+  $(".mediaImage .settings").show();
+  $(".mediaImage .text").hide();
+});
+
+$("#uploadLink").click(function(){
+  $(".pasteLink").toggle();
+});
+
 
 
 

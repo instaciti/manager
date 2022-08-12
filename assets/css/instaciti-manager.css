@@ -703,6 +703,7 @@ aside .sidebar .subMenu {
     height: 250px;
     object-fit: cover;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .dashboardContainer .enterIntro th {
@@ -2305,6 +2306,47 @@ span li {
     opacity: 0;
 }
 
+.mediaImage .note{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.mediaImage .text{
+    margin-top: 25px;
+    display: none;
+}
+
+.mediaImage .text label{
+    font-weight: 600;
+}
+
+.mediaImage .settings{
+    margin-top: 20px;
+    display: none;
+}
+
+.pasteLink{
+    margin-bottom: 25px;
+    display: none;
+}
+
+.mediaContainer .mediaImage .settingBtn{
+    color: #4F8000;
+    background-color: #EAFDC8;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 7px;  
+}
+
+.mediaContainer .mediaImage .textBtn{
+    color: #0B75D2;
+    background-color: #DBEEFF;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 7px;   
+}
+
 .mediaContainer .mediaImage .deleteBtn{
     background-color: #FFD3E9;
     color: #E70777 !important;
@@ -2544,6 +2586,10 @@ span li {
 
 @media only screen and (max-width: 767px) {
 
+    .mediaContainer .mediaImage .btn{
+        padding: 10px;
+        font-size: 14px;
+    }
     .dashboardContainer .strip {
         display: none;
     }
