@@ -538,7 +538,7 @@ aside .sidebar .subMenu {
     top: 0px;
     right: 0px;
     background-color: #F8F8FB;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .dashboardContainer .topbar .searchBox {
@@ -609,7 +609,6 @@ aside .sidebar .subMenu {
     top: 24px;
     z-index: 111;
 }
-
 
 .dashboardContainer .strip {
     width: 100%;
@@ -694,11 +693,11 @@ aside .sidebar .subMenu {
     border-radius: 10px;
 }
 
-.dashboardContainer .enterIntro select{
+.dashboardContainer .enterIntro select {
     margin-bottom: 20px;
 }
 
-.dashboardContainer .enterIntro .media{
+.dashboardContainer .enterIntro .media {
     border-radius: 10px;
     height: 250px;
     object-fit: cover;
@@ -1868,43 +1867,44 @@ span li {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
+    /* margin-top: 25px; */
 }
 
-.instacitiStar hr{
+.instacitiStar hr {
     margin-bottom: 30px;
 }
 
-.instacitiStar .topSection label{
+.instacitiStar .topSection label {
     font-weight: 700;
     margin-bottom: 5px;
 }
 
-.instacitiStar .topSection select{
+.instacitiStar .topSection select {
     border-color: #ddd;
     border-radius: 7px;
     color: #9C9C9C;
     margin-bottom: 20px;
 }
 
-.instacitiStar .topSection .btn{
+.instacitiStar .topSection .btn {
     background-color: #3F51B5;
     color: white;
     width: 100%;
     margin-top: 28px;
 }
 
-.instacitiStar .topSection .themeName{
+.instacitiStar .topSection .themeName {
     color: #3F51B5;
     font-weight: 600;
     font-size: 16px;
 }
-.instacitiStar .topSection .themeName span{
+
+.instacitiStar .topSection .themeName span {
     float: right;
     color: #2BAC5E;
     font-size: 14px;
     font-weight: 700;
 }
-
 
 .instacitiStar .nav {
     background-color: #d3daff38;
@@ -2001,7 +2001,7 @@ span li {
 }
 
 .instacitiStar .leftBox label {
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     padding-bottom: 0px;
     color: gray;
     font-size: 14px;
@@ -2289,7 +2289,7 @@ span li {
     -webkit-box-orient: vertical;
 }
 
-.mediaContainer .mediaImage .uploadBtn{
+.mediaContainer .mediaImage .uploadBtn {
     background-color: #e3d8ff;
     color: #3A1593 !important;
     margin-right: 10px;
@@ -2300,54 +2300,54 @@ span li {
     overflow: hidden;
 }
 
-.mediaContainer .mediaImage .uploadBtn input{
+.mediaContainer .mediaImage .uploadBtn input {
     position: absolute;
     left: 0;
     opacity: 0;
 }
 
-.mediaImage .note{
+.mediaImage .note {
     font-size: 14px;
     margin-top: 20px;
     margin-bottom: 0px;
 }
 
-.mediaImage .text{
+.mediaImage .text {
     margin-top: 25px;
     display: none;
 }
 
-.mediaImage .text label{
+.mediaImage .text label {
     font-weight: 600;
 }
 
-.mediaImage .settings{
+.mediaImage .settings {
     margin-top: 20px;
     display: none;
 }
 
-.pasteLink{
+.pasteLink {
     margin-bottom: 25px;
     display: none;
 }
 
-.mediaContainer .mediaImage .settingBtn{
+.mediaContainer .mediaImage .settingBtn {
     color: #4F8000;
     background-color: #EAFDC8;
     margin-right: 10px;
     padding: 10px 15px;
-    border-radius: 7px;  
+    border-radius: 7px;
 }
 
-.mediaContainer .mediaImage .textBtn{
+.mediaContainer .mediaImage .textBtn {
     color: #0B75D2;
     background-color: #DBEEFF;
     margin-right: 10px;
     padding: 10px 15px;
-    border-radius: 7px;   
+    border-radius: 7px;
 }
 
-.mediaContainer .mediaImage .deleteBtn{
+.mediaContainer .mediaImage .deleteBtn {
     background-color: #FFD3E9;
     color: #E70777 !important;
     margin-right: 10px;
@@ -2355,14 +2355,14 @@ span li {
     border-radius: 7px;
 }
 
-.mediaContainer .mediaImage .thunderBtn{
+.mediaContainer .mediaImage .thunderBtn {
     background-color: #FFD1C1;
     color: #F15A25 !important;
     padding: 10px 15px;
     border-radius: 7px;
 }
 
-.mediaContainer .mediaImage .saveBtn{
+.mediaContainer .mediaImage .saveBtn {
     background-color: #3F51B5;
     color: #fff !important;
     padding: 10px 15px;
@@ -2370,31 +2370,31 @@ span li {
     font-weight: 700;
 }
 
-.dashboardContainer .enterIntro .mediaVideo{
+.dashboardContainer .enterIntro .mediaVideo {
     display: none;
 }
 
-.dashboardContainer .enterIntro .mediaVideo video{
+.dashboardContainer .enterIntro .mediaVideo video {
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-
-.dashboardContainer .enterIntro .mediaVideo .item img{
+.dashboardContainer .enterIntro .mediaVideo .item img {
     border-radius: 10px;
 }
 
-#sliderImgThumb{
+#sliderImgThumb {
     margin-bottom: 30px;
     padding: 0px 25px;
 }
-#sliderImgThumb .item img{
+
+#sliderImgThumb .item img {
     border-radius: 7px;
     height: 60px;
     object-fit: cover;
 }
 
-#sliderImgThumb .owl-nav.disabled{
+#sliderImgThumb .owl-nav.disabled {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -2586,10 +2586,11 @@ span li {
 
 @media only screen and (max-width: 767px) {
 
-    .mediaContainer .mediaImage .btn{
+    .mediaContainer .mediaImage .btn {
         padding: 10px;
         font-size: 14px;
     }
+
     .dashboardContainer .strip {
         display: none;
     }
@@ -2883,7 +2884,161 @@ span li {
 }
 
 a:hover {
-    cursor: pointer!important;
+    cursor: pointer !important;
+}
+
+.editHelloBtn {
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 8px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--Primary_BGColor) !important;
+    border-color: var(--Primary_Color) !important;
+}
+
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--Secondary_BGColor) !important;
+    border-color: var(--Primary_Color) !important;
+}
+
+.cal-month-view .cal-event {
+    background-color: #009688 !important;
+    border-color: #d1e8ff;
+    color: #fff;
+}
+
+.cal-month-view .cal-day-badge {
+    background-color: #f44336 !important;
+    color: #fff;
+}
+
+.dropImg {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: #ececec;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.dropImg i {
+    color: #b0b0b0;
+    font-size: 20px;
+}
+
+.dropImg input {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    opacity: 0;
+}
+
+.social {
+    padding: 0px;
+    margin: 0px;
+}
+
+.social li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social li .fa-facebook-f {
+    background-color: #3B5998;
+}
+
+.social li .fa-instagram {
+    background-color: #E4405F;
+}
+
+.social li .fa-linkedin-in {
+    background-color: #0077B5;
+}
+
+.social li .fa-twitter {
+    background-color: #55ACEE;
+}
+
+.social li .fa-youtube {
+    background-color: #CD201F;
+}
+
+.social li .fa-pinterest {
+    background-color: #BD081C;
+}
+
+.social li i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: white;
+}
+
+.leftBox label {
+    padding: 20px 0px;
+    padding-bottom: 0px;
+    color: gray;
+    font-size: 14px;
+}
+
+.form-floating>.form-control {
+    padding: 20px 0px;
+    padding-bottom: 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.cManikMap {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.filterDate {
+    border-bottom: 2px dashed #e8e8e8;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+}
+
+.filterDate .btn {
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 8px;
+}
+
+.copyButton {
+    background-color: #06a9ff;
+    border: #06a9ff;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 /* My Custom CSS Ends Here */
@@ -3170,13 +3325,15 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
 
-    .dashboardContainer .enterIntro .media{
+    .dashboardContainer .enterIntro .media {
         height: 220px;
     }
-    .mediaContainer .text-end{
+
+    .mediaContainer .text-end {
         text-align: left !important;
         margin-top: 20px;
     }
+
     .enquiryTableWrapper .table strong {
         padding: 5px;
         font-weight: 700;
