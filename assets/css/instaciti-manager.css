@@ -144,6 +144,9 @@ a {
     color: #A39797;
 }
 
+.colorWhite {
+    color: #ffffff!important;
+}
 .blackColor {
     color: #000000;
 }
@@ -650,16 +653,14 @@ aside .sidebar .subMenu {
 }
 
 .dashboardContainer .breadcrumpArea .searchBox input {
-
     padding-left: 50px;
     border-radius: 10px;
     border-color: #E4E4E4 !important;
-
 }
 
 .dashboardContainer .breadcrumpArea a {
     text-decoration: none;
-    color: #000000 !important;
+    color: #000000;
     margin-left: 10px;
 }
 
@@ -2414,7 +2415,7 @@ span li {
 /* My Custom CSS Starts Here */
 
 .hideDesktop {
-    display: none;
+    display: none!important;
 }
 
 .instaSecondaryBgColor {
@@ -2685,7 +2686,7 @@ span li {
     }
 
     .hideDesktop {
-        display: block;
+        display: block!important;
     }
 
     .enquiryTableWrapper .tableRow i {
@@ -3039,6 +3040,18 @@ a:hover {
     margin-top: 50px;
     margin-bottom: 20px;
     cursor: pointer;
+}
+
+.rejectedBg {
+    background-color: #FF1C1C;
+}
+
+.greenBg {
+    background-color: #1A9A2F;
+}
+
+.modalCustomHeight {
+    height: 600px;
 }
 
 /* My Custom CSS Ends Here */
