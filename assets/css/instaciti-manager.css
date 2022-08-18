@@ -335,14 +335,11 @@ aside .sidebar .logo i {
 
 aside .sidebar::-webkit-scrollbar {
     width: 5px;
-    /* for Chrome, Safari, and Opera */
 }
 
 aside .sidebar::-webkit-scrollbar-thumb {
     background: #888;
 }
-
-
 
 aside .sidebar ul {
     padding: 0px;
@@ -405,6 +402,15 @@ aside .sidebar .accordion-button::after {
     transform: rotate(0deg);
     position: relative;
     background-position: right;
+}
+
+aside .sidebar .singleMenu::after{
+    display: none;
+}
+
+aside .sidebar .singleMenu.active{
+    background-color: white;
+    color: #3F51B5 !important;
 }
 
 aside .sidebar .accordion-item .accordion-button {
