@@ -11,3 +11,7 @@ $(document).ready(function(){
 $(".accordion-item").click(function(){
 	$(".singleMenu").removeClass("active");
   });
+
+  $( function() {
+    $( ".datepicker" ).datepicker();
+  } );

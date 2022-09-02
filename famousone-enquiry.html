@@ -15,6 +15,9 @@
   <!-- Font Awesome Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+
   <!-- Custom CSS Link -->
   <link rel="stylesheet" href="./assets/css/instaciti-manager-theme-controls.css" />
   <link rel="stylesheet" href="./assets/css/instaciti-manager.css" />
@@ -335,11 +338,11 @@
           <div class="row">
             <div class="col-md-5">
               <label for="exampleInputPassword" class="form-label">Start Date</label>
-              <input type="date" class="form-control" id="exampleInputPassword">
+              <input type="text" placeholder="dd/mm/yyyy" class="form-control datepicker">
             </div>
             <div class="col-md-5">
               <label for="exampleInputPassword1" class="form-label">End Date</label>
-              <input type="date" class="form-control" id="exampleInputPassword1">
+              <input type="text" placeholder="dd/mm/yyyy" class="form-control datepicker">
             </div>
             <div class="col-md-2">
               <a href="#">
@@ -500,7 +503,8 @@
   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
   <!-- common JavaScript -->
   <script src="./assets/js/script.js"></script>
@@ -514,6 +518,9 @@
       $("#sidebar").css("width", "0%");
       $("#sidebar").css("opacity", "0");
     });
+
+    $( "#date" ).datepicker();
+
   </script>
 </body>
 
