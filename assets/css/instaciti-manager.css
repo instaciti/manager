@@ -2401,11 +2401,7 @@ span li {
     padding: 0px 25px;
 }
 
-#sliderImgThumb .item img {
-    border-radius: 7px;
-    height: 60px;
-    object-fit: cover;
-}
+
 
 #sliderImgThumb .owl-nav.disabled {
     display: flex;
@@ -2416,7 +2412,8 @@ span li {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 15px;
+    top: 35px;
+    z-index: -15;
 }
 
 .ui-datepicker {
@@ -3130,6 +3127,41 @@ a:hover {
     height: 600px;
 }
 
+.carouselThumbs .addImg{
+    position: relative;
+    width: 95px;
+    height: 101px;
+    background: #E4E8FF;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3F51B5;
+    font-size: 30px;
+}
+
+.carouselThumbs .addImg input{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    width: 100%;
+}
+
+.carouselThumbs .floatAddBtn{
+    position: absolute;
+    right: 25px;
+    top: -1px;
+    z-index: 11;
+    background: white;
+    width: 175px;
+    padding-left: 60px;
+}
+
+.carouselThumbs{
+    position: relative;
+}
+
 /* My Custom CSS Ends Here */
 
 
@@ -3143,6 +3175,16 @@ a:hover {
         width: 30px;
         height: 30px;
     } */
+
+    .dashboardContainer .enterIntro .media{
+        height: 400px;
+    }
+
+    #sliderImgThumb .item img {
+        height: 100px;
+        border-radius: 7px;
+        object-fit: cover;
+    }
 
     .emptyBox {
         height: 250px;
@@ -3203,6 +3245,30 @@ a:hover {
     .font18 {
         font-size: 16px !important;
         line-height: 27px;
+    }
+
+    .dashboardContainer .enterIntro .media{
+        height: 300px;
+    }
+    .carouselThumbs .addImg{
+        height: 62px;
+    }
+    .carouselThumbs .floatAddBtn {
+        position: absolute;
+        right: 25px;
+        top: -1px;
+        z-index: 11;
+        background: white;
+        width: 145px;
+        padding-left: 40px;
+    }
+    #sliderImgThumb .item img {
+        border-radius: 7px;
+        height: 60px;
+        object-fit: cover;
+    }
+    #sliderImgThumb .owl-nav.disabled{
+        top: 15px;
     }
 
     .instacitiStar .nav-link {
@@ -3414,6 +3480,20 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
 
+    .carouselThumbs .addImg {
+        height: 62px;
+        width: 60px;
+        font-size: 20px;
+    }
+    .carouselThumbs .floatAddBtn {
+        position: absolute;
+        right: 25px;
+        top: -1px;
+        z-index: 11;
+        background: white;
+        width: 85px;
+        padding-left: 20px;
+    }
     .dashboardContainer .enterIntro .media {
         height: 220px;
     }
